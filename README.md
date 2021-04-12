@@ -105,7 +105,7 @@ Features to be implemented
 
 ### Libraries & Frameworks
 
-- Bootstrap + version
+- Bootstrap + 4.5
 - Google Fonts
 - Font Awesome
 
