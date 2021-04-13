@@ -13,3 +13,14 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+.reasons h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #343a40;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.reasons h3 {
+    font-family: 'Roboto', sans-serif;
+}
