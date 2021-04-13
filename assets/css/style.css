@@ -1,3 +1,15 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.hero-image {
+    height: 600px;
+}
+
+.jumbotron {
+    background: url('../images/ben-garratt-OMFtBJb8kgg-unsplash.jpg') no-repeat 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
