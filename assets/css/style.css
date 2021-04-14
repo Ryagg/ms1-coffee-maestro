@@ -2,6 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .hero-image {
     height: 600px;
 }
@@ -22,5 +23,9 @@ body {
 }
 
 .reasons h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.quotes h2 {
     font-family: 'Roboto', sans-serif;
 }
