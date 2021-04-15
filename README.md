@@ -69,14 +69,19 @@ For these personas I created the following user stories:
 
 ### Typography
 
-For fonts, I used [Google Fonts](https://fonts.google.com) to compare various designs. I chose Montserrat as my primary display typeface. As secondary font I chose Roboto.
+For fonts, I used [Google Fonts](https://fonts.google.com) to compare various designs. I chose Yanone Kaffeesatz as my primary display typeface. I wanted to recreate the style and allure of coffee houses from the 1920s. Additionally, being used on coffee and food-related packaging worldwide adds a subliminal familiarity. As secondary font I chose Roboto to add both a strong, but nice contrast and a modern touch.
 
 ### Icons
 
 ### Imagery
 
-krists-luhaers-2rCmEresf-c-unsplash.jpg:
-Photo by <a href="https://unsplash.com/@kristsll?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Krists Luhaers</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+#### index.html
+
+Heropic: Photo by [Ben Garratt](https://unsplash.com/@wstn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-art?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Male customer: Photo by [Jennifer Bedoya](https://unsplash.com/@jennbedoya?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/customer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Female customer: Photo by [Peter John Manlapig](https://unsplash.com/@istream?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/customer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 ### Structure
 
@@ -140,8 +145,6 @@ Final testing
 Testing User Stories from User Experience Section (???)
 
 ## Bugs
-
-In bootstrap 5.0 horizontal list groups currently cannot be combined with flush list groups. [Source](https://getbootstrap.com/docs/5.0/components/list-group/)
 
 Element
 
