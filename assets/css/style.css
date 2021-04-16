@@ -2,7 +2,15 @@ body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+.footer-container {
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
 
+.footer-container i {
+    color: #708090;
+    font-size: 150%;
+}
 .hero-image {
     height: 600px;
 }
