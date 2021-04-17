@@ -1,5 +1,6 @@
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5em;
 }
 
 .footer-container {
@@ -9,7 +10,7 @@ body {
 
 .footer-container i {
     color: #fff;
-    font-size: 150%;
+    font-size: 130%;
 }
 .hero-image {
     height: 600px;
@@ -52,5 +53,5 @@ body {
     margin-bottom: 10px;
 }
 .blockquote {
-    margin-top: 20px;
+    margin-top: 10px;
 }
