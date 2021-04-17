@@ -8,7 +8,7 @@ body {
 }
 
 .footer-container i {
-    color: #708090;
+    color: #fff;
     font-size: 150%;
 }
 .hero-image {
@@ -40,8 +40,8 @@ body {
 /* --------------- Quotes --------------- */
 
 .container-colored {
-    background-color: #CD533B;
-    color: #DFE2E0;
+    background-color: #B2442E;
+    color: rgb(255, 255, 255);
 }
 
 .quotes h2 {
