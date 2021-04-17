@@ -39,6 +39,11 @@ body {
 
 /* --------------- Quotes --------------- */
 
+.container-colored {
+    background-color: #CD533B;
+    color: #DFE2E0;
+}
+
 .quotes h2 {
     font-family: 'Roboto', sans-serif;
     margin: 30px 0;
