@@ -60,6 +60,27 @@ body {
     background-color: #DFE2E0;
 }
 
-.contact iframe {
+label {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.contact h1 {
+    font-family: 'Roboto', sans-serif;
     margin-top: 20px;
+    color: #B2442E;
+}
+
+.contact h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2px;
+}
+
+.btn-orange {
+    background-color: #B2442E;
+    color: rgb(255, 255, 255)
+}
+
+.contact iframe {
+    margin: 20px;
 }
