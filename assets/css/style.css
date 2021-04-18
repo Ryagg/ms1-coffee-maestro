@@ -59,3 +59,7 @@ body {
 .contact {
     background-color: #DFE2E0;
 }
+
+.contact iframe {
+    margin-top: 20px;
+}
