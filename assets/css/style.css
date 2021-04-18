@@ -96,7 +96,7 @@ label {
 .progress {
     height: 30px;
     font-size: larger;
-    margin-bottom: 1px;
+    margin-bottom: 3px;
 }
 
 .block-divider {
