@@ -3,6 +3,10 @@ body {
     font-size: 1.5em;
 }
 
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
 .footer-container {
     color: rgb(255, 255, 255);
     padding-top: 10px;
@@ -83,4 +87,21 @@ label {
 
 .contact iframe {
     margin: 20px;
+}
+
+.course-details {
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 30px;
+    font-size: larger;
+    margin-bottom: 1px;
+}
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #343a40;
 }
