@@ -89,8 +89,18 @@ label {
     margin: 20px;
 }
 
+.courses-container h1 {
+    color: #84190B;
+    font-weight: bold;
+    margin: 15px 0 20px 0;
+}
+
 .course-details {
     margin-bottom: 10px;
+}
+
+.course-details h2 {
+    color: #84190B;
 }
 
 .progress {
