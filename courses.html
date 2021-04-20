@@ -73,6 +73,7 @@
                 <div class="progress">
                     <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Manual methods</div>
                 </div>
+                <button type="button" class="btn btn-book" data-toggle="modal" data-target="#book-modal">Book course!</button>
             </div>
             <div class="col-12 col-md-4 col-lg-3">
                 <img src="assets/images/an-nguyen-MHWbEt0VfEY-unsplash.jpg" class="img-fluid d-none d-sm-block"  alt="wooden tablet with a glas of latte macchiato, a glass of water, a spoon, a stick of sugar and a biscuit">
@@ -102,16 +103,17 @@
                 <div class="progress">
                     <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Manual methods</div>
                 </div>
+                <button type="button" class="btn btn-book" data-toggle="modal" data-target="#book-modal">Book course!</button>
             </div>
         </div>
         <hr class="block-divider">
         <div id="Espresso Macchiato" class="row mx-2 course-details">
             <div class="col-12 col-md-8 col-lg-9">
                 <h2>Espresso Macchiato</h2>
-                <p>Our advanced course to prepare you for your work as a barista.  You will learn how to create the perfect espresso and milk froth and to style it with latte art. Furthermore, you’ll add several international coffee specialities to your recipe book. You will learn how to check the quality of coffee beans and observing their tastes and aromas by cupping. You’ll learn how to use and service several professional grade coffee and espresso machines. Some of the new coffees and espressos you will be learning to prepare include the following:
+                <p>Our advanced course to prepare you for your work as a barista.  You will learn how to create the perfect espresso and milk froth, how to check the quality of coffee beans and observe their tastes and aromas by cupping and how to use and service professional grade coffee and espresso machines. Some of the new coffees and espressos you will be adding to your recipe book include the following:
                     <ul>
                         <li><b>Ristretto</b></li>
-                        <li><b>Espresso Doppio</b></li>
+                        <!--<li><b>Espresso Doppio</b></li>-->
                         <li><b>Cortado</b></li>
                         <li><b>Flat White</b></li>
                     </ul>
@@ -131,11 +133,83 @@
                 <div class="progress">
                     <div class="progress-bar bg-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Machine set-up</div>
                 </div>
+                <button type="button" class="btn btn-book" data-toggle="modal" data-target="#book-modal">Book course!</button>
             </div>
             <div class="col-12 col-md-4 col-lg-3">
                 <img src="assets/images/nathan-dumlao-AYossagpODA-unsplash.jpg" class="img-fluid d-none d-sm-block"  alt="counter with 2 professional espresso machines and an empty glass">
             </div>
         </div>
+    <!-- Modal -->
+    <div class="modal fade" id="book-modal" tabindex="-1" role="dialog" aria-labelledby="book-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="book-modal-label">Book your place in the course!</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-row">
+                            <div class="col-6 customer-info">
+                                <label for="f-name">First Name</label>
+                                <input type="text" id="f-name" class="form-control" name="f-name" placeholder="John" required>
+                            </div>
+                            <div class="col-6 customer-info">
+                                <label for="l-name">Last Name</label>
+                                <input type="text" id="l-name" class="form-control" name="l-name" placeholder="Doe" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 customer-info">
+                                <label for="email">Email</label>
+                                <input type="text" id="email" class="form-control" name="email" placeholder="you@mail.com" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 customer-info">
+                                <label for="input-address">Address</label>
+                                <input type="text" class="form-control" id="input-address" placeholder="1234 Main St">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 customer-info">
+                                <label for="input-address2">Address 2</label>
+                                <input type="text" class="form-control" id="input-address2" placeholder="Apartment, studio, or floor">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6 customer-info">
+                                <label for="input-city">City</label>
+                                <input type="text" class="form-control" id="input-city">
+                            </div>
+                            <div class="form-group col-md-4 customer-info">
+                                <label for="input-zip">ZIP</label>
+                                <input type="text" class="form-control" id="input-zip">
+                            </div>
+                        <h4>Preferred payment option:</h4>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-payment">
+                                    <input type="radio" id="credit-card" name="payment-option" value="Credit Card" aria-label="Radio button for following text input">
+                                    <label class="mr-3" for="credit-card">Credit Card</label>
+                                    <input type="radio" id="paypal" name="payment-option" value="Paypal" aria-label="Radio button for following text input">
+                                    <label class="mr-3" for="paypal">Paypal</label>
+                                    <input type="radio" id="on-account" name="payment-option" value="on-account" aria-label="Radio button for following text input">
+                                    <label class="mr-3" for="on-account">On account</label>
+                                    <small id="payment-option-info" class="form-text text-muted">Down payment of 20% required for payment on account!</small>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="button" class="btn btn-danger ml-3">Cancel</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
     </section>
     <footer class="container-fluid footer-container bg-dark">
         <div class="row">

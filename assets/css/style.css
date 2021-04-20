@@ -64,7 +64,7 @@ h1, h2, h3 {
     background-color: #DFE2E0;
 }
 
-label {
+.quotes label {
     margin-top: 1rem;
     margin-bottom: 0.2rem;
 }
@@ -107,6 +107,25 @@ label {
     height: 30px;
     font-size: larger;
     margin-bottom: 3px;
+}
+
+.btn-book {
+    background-color: #84190B;
+    color: #fff;
+    font-size: 1em;
+}
+
+.customer-info label {
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+}
+
+.modal-body h4 {
+    margin-top: 1.2rem;
+}
+
+.modal-body button {
+    font-size: 1em;
 }
 
 .block-divider {
