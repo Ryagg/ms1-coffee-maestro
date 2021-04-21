@@ -109,7 +109,7 @@ h1, h2, h3 {
     margin-bottom: 3px;
 }
 
-.btn-book {
+.btn-register {
     background-color: #84190B;
     color: #fff;
     font-size: 1em;
@@ -126,6 +126,11 @@ h1, h2, h3 {
 
 .modal-body button {
     font-size: 1em;
+}
+
+#preview-modal, #cancel-modal {
+    position: relative;
+
 }
 
 .block-divider {
