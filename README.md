@@ -1,4 +1,4 @@
-# Name of project as heading
+# Coffee maestro
 
 Link to live project
 
@@ -6,7 +6,7 @@ User Centric Frontend Development Milestone Project for Code Institute's Diploma
 
 The project features a static website where barista courses are offered for purchase.
 
-The site targets both private citizens who want to extend their knowledge about coffee and to learn new methods of preparation as well as aspiring baristas who want to make a career out of their passion for coffee.
+The site targets both coffee lovers who want to extend their knowledge about coffee and to learn new methods of preparation as well as aspiring baristas who want to make a career out of their passion for coffee.
 
 Mockup (pic)
 
@@ -55,7 +55,7 @@ For these personas I created the following user stories:
 
 - to attract different kind of buyers to the site
 - to generate sales
-- to generate returning visitors
+- to generate returning visitors and sales
 - to generate a network of potential partners for future collaborations
 
 - User Requirements and Expectations (already included in the above section?)
@@ -67,21 +67,29 @@ For these personas I created the following user stories:
 
 ### Colour Scheme
 
+I used variations of black, white and grey as main colours for a modern and professional look. To add warmth and a nice contrast I used warm colours like shades of orange for some backgrounds and headings. I used [Coolors](https://coolors.co) to generate my colour palette.
+
 ### Typography
 
 For fonts, I used [Google Fonts](https://fonts.google.com) to compare various designs. I chose Yanone Kaffeesatz as my primary display typeface. I wanted to recreate the style and allure of coffee houses from the 1920s. Additionally, being used on coffee and food-related packaging worldwide adds a subliminal familiarity. As secondary font I chose Roboto to add both a strong, but nice contrast and a modern touch.
 
 ### Icons
 
+I implemented icons from [Font Awesome](https://fontawesome.com) on the landing page to catch the user's eye without distracting from the content.
+
 ### Imagery
+
+All images were taken from [Unsplash](https://unsplash.com). Credit for the individual pictures is given below.
 
 #### index.html
 
 Heropic: Photo by [Ben Garratt](https://unsplash.com/@wstn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-art?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-Male customer: Photo by [Jennifer Bedoya](https://unsplash.com/@jennbedoya?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/customer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Male customer on the left: Photo by [Nicolas Horn](https://unsplash.com/@chiefexof?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/human-face?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-Female customer: Photo by [Peter John Manlapig](https://unsplash.com/@istream?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/customer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Female customer in the middle: Photo by [Cuong Doan](https://unsplash.com/@huyencuong?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/human-face?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Male customer to the right: Photo by [Sigmund](https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/human-face?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 ### Structure
 
