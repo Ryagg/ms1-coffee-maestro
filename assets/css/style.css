@@ -7,6 +7,9 @@ body {
     padding-left: 0;
     padding-right: 0;
 }
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
 
 .footer-container {
     color: rgb(255, 255, 255);
@@ -62,10 +65,10 @@ body {
 }
 
 .contact {
-    background-color: #DFE2E0;
+    background-color: #F2F6F8;
 }
 
-label {
+.quotes label {
     margin-top: 1rem;
     margin-bottom: 0.2rem;
 }
@@ -89,4 +92,55 @@ label {
 
 .contact iframe {
     margin: 20px;
+}
+
+.courses-container h1 {
+    color: #84190B;
+    font-weight: bold;
+    margin: 15px 0 20px 0;
+}
+
+.course-details {
+    margin-bottom: 10px;
+}
+
+.course-details h2 {
+    color: #84190B;
+}
+
+.progress {
+    height: 30px;
+    font-size: larger;
+    margin-bottom: 3px;
+}
+
+.btn-register {
+    background-color: #84190B;
+    color: #fff;
+    font-size: 1em;
+}
+
+.customer-info label {
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+}
+
+.modal-body h4 {
+    margin-top: 1.2rem;
+}
+
+.modal-body button {
+    font-size: 1em;
+}
+
+#preview-modal, #cancel-modal {
+    position: relative;
+
+}
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #343a40;
 }
