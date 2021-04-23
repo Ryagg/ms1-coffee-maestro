@@ -130,11 +130,11 @@ h1, h2, h3 {
 }
 
 .modal-body button {
-    font-size: 1em;
+    font-size: .7em;
 }
 
 .modal-body input {
-    font-size: 1em;
+    font-size: .7em;
 }
 
 #preview-modal, #cancel-modal {
@@ -146,4 +146,16 @@ h1, h2, h3 {
     height: 5px;
     border: 0;
     background-color: #343a40;
+}
+
+/* --------------- Media Queries --------------- */
+
+@media(min-width: 2560px) {
+    .modal-body button {
+        font-size: 1em;
+    }
+
+    .modal-body input {
+        font-size: 1em;
+    }
 }
