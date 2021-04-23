@@ -108,7 +108,7 @@ h1, h2, h3 {
 }
 
 .progress {
-    height: 30px;
+    height: 2rem;
     font-size: larger;
     margin-bottom: 3px;
 }
@@ -164,6 +164,10 @@ h1, h2, h3 {
     body {
         font-size: 2em;
     }
+
+.progress {
+    height: 3.5rem;
+}
 
     .modal-body button {
         font-size: 1em;
