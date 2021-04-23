@@ -154,6 +154,12 @@ h1, h2, h3 {
 
 /* --------------- Media Queries --------------- */
 
+@media(max-width: 370px) {
+    .footer-container i {
+        font-size: 120%;
+    }
+}
+
 @media(min-width: 2560px) {
     body {
         font-size: 2em;
