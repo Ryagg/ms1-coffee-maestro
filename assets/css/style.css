@@ -24,6 +24,7 @@ h1, h2, h3 {
     height: 600px;
 }
 
+/* --------------- Jumbotron --------------- */
 .jumbotron {
     background: url('../images/ben-garratt-OMFtBJb8kgg-unsplash.jpg') no-repeat 50% 50%;
     -webkit-background-size: cover;
@@ -45,7 +46,6 @@ h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
 }
 
-
 /* --------------- Quotes --------------- */
 
 .container-colored {
@@ -64,13 +64,10 @@ h1, h2, h3 {
     margin-top: 10px;
 }
 
+/* --------------- Contact form --------------- */
+
 .contact {
     background-color: #F2F6F8;
-}
-
-.quotes label {
-    margin-top: 1rem;
-    margin-bottom: 0.2rem;
 }
 
 .contact h1 {
@@ -93,6 +90,8 @@ h1, h2, h3 {
 .contact iframe {
     margin: 20px;
 }
+
+/* --------------- Courses --------------- */
 
 .courses-container h1 {
     color: #84190B;
@@ -120,13 +119,22 @@ h1, h2, h3 {
     font-size: 1em;
 }
 
-.customer-info label {
-    margin-top: 1rem;
-    margin-bottom: 0.1rem;
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #343a40;
 }
+
+/* --------------- Modal --------------- */
 
 .modal-body h4 {
     margin-top: 1.2rem;
+}
+
+.customer-info label {
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
 }
 
 .modal-body button {
@@ -144,16 +152,13 @@ h1, h2, h3 {
     position: relative;
 }
 
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #343a40;
-}
-
 /* --------------- Media Queries --------------- */
 
 @media(min-width: 2560px) {
+    body {
+        font-size: 2em;
+    }
+
     .modal-body button {
         font-size: 1em;
     }
