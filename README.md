@@ -8,7 +8,7 @@ The project features a static website where barista courses are offered for purc
 
 The site targets both coffee lovers who want to extend their knowledge about coffee and to learn new methods of preparation as well as aspiring baristas who want to make a career out of their passion for coffee.
 
-Mockup (pic)
+![Mockup](assets/images/mockups/mockup-v1.png)
 
 Table of contents with links
 
@@ -118,18 +118,20 @@ Features to be implemented
 
 ### Libraries & Frameworks
 
-- Bootstrap + 4.5
+- Bootstrap 4.5.3
 - Google Fonts
 - Font Awesome
 
 ### Tools
 
+- VSCode
 - Git
 - GitHub
 - Google Chrome Developer Tools
 - Sizzy
 - Balsamiq
-- Coolors.co colour palette generator
+- Coolors colour palette generator
+- Google Cloud Platform
 - W3C HTML Validation Service
 - W3C CSS Validation Service
 
