@@ -137,6 +137,9 @@ h1, h2, h3 {
     font-size: .7em;
 }
 
+.modal-body label {
+    font-size: .7em;
+}
 #preview-modal, #cancel-modal {
     position: relative;
 }
@@ -156,6 +159,10 @@ h1, h2, h3 {
     }
 
     .modal-body input {
+        font-size: 1em;
+    }
+
+    .modal-body label {
         font-size: 1em;
     }
 }
