@@ -25,7 +25,7 @@ h1, h2, h3 {
 }
 
 /* --------------- Jumbotron --------------- */
-.jumbotron {
+.my-jumbotron {
     background: url('../images/ben-garratt-OMFtBJb8kgg-unsplash.jpg') no-repeat 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
