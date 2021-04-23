@@ -88,7 +88,7 @@ h1, h2, h3 {
 }
 
 .contact iframe {
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 
 /* --------------- Courses --------------- */
