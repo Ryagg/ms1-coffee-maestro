@@ -70,26 +70,33 @@
                             </p>
                         </div>
                     </div>
-                    <form action="https://formdump.codeinstitute.net" method="POST" target="_blank">
-                        <div class="form-row">
-                            <div class="col-12">
-                                <label for="name">Full Name</label>
-                                <input type="text" id="name" class="form-control" name="name" placeholder="John Doe" required>
+                    <div class="contact-form-container">
+                        <form class="contact-form" action="https://formdump.codeinstitute.net" method="POST" target="_blank">
+                            <div class="form-group row">
+                                <div class="col-12">
+                                    <label for="name" class="col-form-label">Full Name</label>
+                                    <input type="text" id="name" class="form-control" name="name" placeholder="John Doe" required>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-12">
-                                <label for="email">Email</label>
-                                <input type="text" id="email" class="form-control" name="email" placeholder="you@mail.com" required>
+                            <div class="form-group row">
+                                <div class="col-12">
+                                    <label for="email" class="col-form-label">Email</label>
+                                    <input type="text" id="email" class="form-control" name="email" placeholder="you@mail.com" required>
+                                </div>
                             </div>
-                        </div>
-                        <textarea class="col-12" name="message" id="message" rows="10" placeholder="Your Message to us" required></textarea>
-                        <div class="form-row">
-                            <div class="col">
-                                <button type="submit" id="submit" class="btn btn-orange">Submit</button>
+                            <textarea class="col-12" name="message" id="message" rows="10" placeholder="Your Message to us" required></textarea>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <button type="submit" id="submit" class="btn btn-contact">Submit
+                                        <span class="ml-1"><i class="fal fa-paper-plane"></i></span>
+                                    </button>
+                                    <button type="reset" class="btn btn-contact">Clear form
+                                        <span class="ml-1"><i class="fal fa-trash-alt"></i></span>
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                     <div class="col-12 embed-responsive embed-responsive-4by3">
                         <iframe id="map" title="Where to find us" src="https://bit.ly/3ssLNNs">
                         </iframe>

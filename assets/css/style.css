@@ -7,6 +7,7 @@ body {
     padding-left: 0;
     padding-right: 0;
 }
+
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
 }
@@ -81,9 +82,23 @@ h1, h2, h3 {
     margin-bottom: 2px;
 }
 
-.btn-orange {
+.contact-form label {
+    color:#B2442E;
+}
+
+.contact-form input {
+    font-size: 1em;
+}
+
+.btn-contact {
     background-color: #B2442E;
-    color: rgb(255, 255, 255);
+    color: #fff;
+    font-size: 1em;
+}
+
+.btn-contact:hover {
+    background-color: #fff;
+    color: #B2442E;
     font-size: 1em;
 }
 
