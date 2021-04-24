@@ -41,6 +41,7 @@ h1, h2, h3 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    /* found this method at https://css-tricks.com/centering-css-complete-guide/ */
 }
 
 /* --------------- Reasons --------------- */
@@ -168,6 +169,12 @@ h1, h2, h3 {
 @media(max-width: 370px) {
     .footer-container i {
         font-size: 120%;
+    }
+}
+
+@media(max-width: 425px) {
+    .my-jumbotron h1 {
+        font-size: smaller;
     }
 }
 
