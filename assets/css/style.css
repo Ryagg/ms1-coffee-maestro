@@ -141,7 +141,7 @@ h1, h2, h3 {
     background-color: #343a40;
 }
 
-/* --------------- Modal --------------- */
+/* --------------- Register-Modal --------------- */
 
 .modal-body h4 {
     margin-top: 1.2rem;
@@ -150,6 +150,7 @@ h1, h2, h3 {
 .customer-info label {
     margin-top: 1rem;
     margin-bottom: 0.1rem;
+    color: #84190B;
 }
 
 .modal-body button {
@@ -157,14 +158,11 @@ h1, h2, h3 {
 }
 
 .modal-body input {
-    font-size: .7em;
+    font-size: 1em;
 }
 
 .modal-body label {
-    font-size: .7em;
-}
-#preview-modal, #cancel-modal {
-    position: relative;
+    font-size: 1em;
 }
 
 /* --------------- Media Queries --------------- */
