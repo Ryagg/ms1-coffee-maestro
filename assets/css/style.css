@@ -31,19 +31,30 @@ h1, h2, h3 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
+}
+
+.my-jumbotron h1 {
+    background-color: transparent;
+    color: #343A40;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* --------------- Reasons --------------- */
 
-.reasons h1 {
+.reasons h2 {
     font-family: 'Roboto', sans-serif;
-    color: #343a40;
+    color: #343A40;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 .reasons h3 {
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 /* --------------- Quotes --------------- */
