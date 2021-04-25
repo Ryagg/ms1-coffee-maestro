@@ -106,45 +106,10 @@ h1, h2, h3 {
     margin-top: 10px;
 }
 
-/* --------------- Contact form --------------- */
+/* --------------- Table --------------- */
 
-.contact {
-    background-color: #F2F6F8;
-}
-
-.contact h1 {
-    font-family: 'Roboto', sans-serif;
+.table-overview {
     margin-top: 20px;
-    color: #B2442E;
-}
-
-.contact h2 {
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 2px;
-}
-
-.contact-form-colored label {
-    color:#B2442E;
-}
-
-.contact-form-colored input {
-    font-size: 1em;
-}
-
-.btn-contact {
-    background-color: #B2442E;
-    color: #fff;
-    font-size: 1em;
-}
-
-.btn-contact:hover {
-    background-color: #fff;
-    color: #B2442E;
-    font-size: 1em;
-}
-
-.contact iframe {
-    padding: 20px 0;
 }
 
 /* --------------- Courses --------------- */
@@ -216,6 +181,47 @@ h1, h2, h3 {
 
 .modal-body label {
     font-size: 1em;
+}
+
+/* --------------- Contact form --------------- */
+
+.contact {
+    background-color: #F2F6F8;
+}
+
+.contact h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    color: #B2442E;
+}
+
+.contact h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2px;
+}
+
+.contact-form-colored label {
+    color:#B2442E;
+}
+
+.contact-form-colored input {
+    font-size: 1em;
+}
+
+.btn-contact {
+    background-color: #B2442E;
+    color: #fff;
+    font-size: 1em;
+}
+
+.btn-contact:hover {
+    background-color: #fff;
+    color: #B2442E;
+    font-size: 1em;
+}
+
+.contact iframe {
+    padding: 20px 0;
 }
 
 /* --------------- Media Queries --------------- */
