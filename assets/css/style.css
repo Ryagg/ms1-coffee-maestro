@@ -61,7 +61,7 @@ h1, h2, h3 {
 
 .about-jumbotron h1 {
     background-color: transparent;
-    color: #7EA0B7;
+    color: #517690;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -106,10 +106,33 @@ h1, h2, h3 {
     margin-top: 10px;
 }
 
-/* --------------- Table --------------- */
+/* --------------- About --------------- */
+
+.about {
+    background-color: #F2F6F8;
+
+
+}
 
 .table-overview {
     margin-top: 20px;
+}
+
+.overview h2 {
+    color: #517690;
+}
+
+.mailing-list h2 {
+    color: #517690;
+}
+.subscribe input {
+    font-size: 1em;
+}
+
+.btn-subscribe {
+    background-color: #517690;
+    color: #fff;
+    font-size: 1em;
 }
 
 /* --------------- Courses --------------- */
@@ -217,7 +240,6 @@ h1, h2, h3 {
 .btn-contact:hover {
     background-color: #fff;
     color: #B2442E;
-    font-size: 1em;
 }
 
 .contact iframe {
