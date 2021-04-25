@@ -12,6 +12,11 @@ h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
 }
 
+.about-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .footer-container {
     color: rgb(255, 255, 255);
     padding-top: 10px;
@@ -25,9 +30,9 @@ h1, h2, h3 {
     height: 600px;
 }
 
-/* --------------- Jumbotron --------------- */
-.my-jumbotron {
-    background: url('../images/ben-garratt-OMFtBJb8kgg-unsplash.jpg') no-repeat 50% 50%;
+/* --------------- Jumbotrons --------------- */
+.index-jumbotron {
+    background: url('../images/ben-garratt-latte-art-unsplash.jpg') no-repeat 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -35,7 +40,7 @@ h1, h2, h3 {
     position: relative;
 }
 
-.my-jumbotron h1 {
+.index-jumbotron h1 {
     background-color: transparent;
     color: #343A40;
     position: absolute;
@@ -43,6 +48,30 @@ h1, h2, h3 {
     left: 50%;
     transform: translate(-50%, -50%);
     /* found this method at https://css-tricks.com/centering-css-complete-guide/ */
+}
+
+.about-jumbotron {
+    background: url('../images/close-up-espresso-machine-unsplash.jpg') no-repeat 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.about-jumbotron h1 {
+    background-color: transparent;
+    color: #7EA0B7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.about-image {
+    height: 600px;
 }
 
 /* --------------- Reasons --------------- */
@@ -200,6 +229,12 @@ h1, h2, h3 {
 @media(max-width: 425px) {
     .my-jumbotron h1 {
         font-size: smaller;
+    }
+}
+
+@media(min-width: 1024px) {
+    .about-jumbotron h1 {
+        font-size: 2em;
     }
 }
 
