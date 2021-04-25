@@ -204,7 +204,7 @@ h1, h2, h3 {
 }
 
 .modal-body button {
-    font-size: .7em;
+    font-size: 1em;
 }
 
 .modal-body input {
@@ -264,7 +264,7 @@ h1, h2, h3 {
 }
 
 @media(max-width: 425px) {
-    .my-jumbotron h1 {
+    .index-jumbotron h1 {
         font-size: smaller;
     }
 }
@@ -285,14 +285,14 @@ h1, h2, h3 {
 }
 
     .modal-body button {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     .modal-body input {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     .modal-body label {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 }
