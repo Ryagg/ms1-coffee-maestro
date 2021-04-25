@@ -1,15 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 1.5em;
-}
-
-.navbar-container {
     padding-left: 0;
     padding-right: 0;
 }
 
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
+}
+
+/* --------------- Containers --------------- */
+
+.navbar-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.hero-image-container {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .about-container {
@@ -110,8 +121,6 @@ h1, h2, h3 {
 
 .about {
     background-color: #F2F6F8;
-
-
 }
 
 .table-overview {
