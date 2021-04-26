@@ -127,6 +127,10 @@ h1, h2, h3 {
     margin-top: 20px;
 }
 
+.about-us h2 {
+    color: #517690;
+}
+
 .overview h2 {
     color: #517690;
 }
