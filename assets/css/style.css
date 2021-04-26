@@ -144,6 +144,12 @@ h1, h2, h3 {
     font-size: 1em;
 }
 
+.btn-subscribe:hover {
+    background-color: #fff;
+    color: #517690;
+    border: 1px solid #517690;
+}
+
 /* --------------- Courses --------------- */
 
 .courses-container h1 {
@@ -249,6 +255,7 @@ h1, h2, h3 {
 .btn-contact:hover {
     background-color: #fff;
     color: #B2442E;
+    border: 1px solid #B2442E;
 }
 
 .contact iframe {
