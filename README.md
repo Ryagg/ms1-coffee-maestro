@@ -1,6 +1,6 @@
 # Coffee maestro
 
-Link to live project
+Link to live project: [Coffee maestro](https://ryagg.github.io/ms1-coffee-maestro)
 
 User Centric Frontend Development Milestone Project for Code Institute's Diploma in Software Development
 
@@ -91,6 +91,10 @@ Female customer in the middle: Photo by [Cuong Doan](https://unsplash.com/@huyen
 
 Male customer to the right: Photo by [Sigmund](https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/human-face?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
+#### about.html
+
+Background image: Photo by [Crew](https://unsplash.com/@crew?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 #### courses.html
 
 Tablet with latte macchiato and glass of water: Photo by [An Nguyen](https://unsplash.com/@ngocan_19?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-macchiato?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
@@ -112,7 +116,11 @@ Differences in the deployed version:
 - Also due to a validator error message, a heading has been added to the jumbotron with the hero image.
 - The small hero image 2 hasn't been implemented. In my opinion it wouldn't have improved the site.
 
-[wireframes for about.html](assets/images/wireframes/about.png)
+[wireframes for about.html](assets/images/wireframes/about.png)  
+Differences in the deployed version:
+
+- I chose to use a background image, which is displayed above the text for all resolutions instead of an image, which is displayed to the left or right side of the text for larger resolutions.
+- Instead of a second list I added the option to subscribe to a mailing list. The mailing list is placed beneath the table for all resolutions.
 
 [wireframes for courses.html](assets/images/wireframes.courses.png)  
 Differences in the deployed version:
@@ -151,28 +159,28 @@ Features to be implemented
 
 ### Languages
 
-- HTML5
-- CSS3
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ### Libraries & Frameworks
 
-- Bootstrap 4.5.3
-- Google Fonts
-- Font Awesome
+- [Bootstrap 4.5.3](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
 
 ### Tools
 
-- VSCode
-- Git
-- GitHub
-- Google Chrome Developer Tools
-- Sizzy
-- Balsamiq
-- Coolors colour palette generator
-- Techsini
-- Google Cloud Platform
-- W3C HTML Validation Service
-- W3C CSS Validation Service
+- [VSCode](https://code.visualstudio.com/)
+- [Git BASH](https://gitforwindows.org/)
+- [GitHub](https://github.com/)
+- [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
+- [Sizzy](https://sizzy.co/)
+- [Balsamiq](https://balsamiq.com/)
+- [Coolors colour palette generator](https://coolors.co/)
+- [Techsini](http://techsini.com/multi-mockup/)
+- [Google Cloud Platform](https://cloud.google.com/)
+- [W3C HTML Validation Service](https://validator.w3.org/)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ## Testing
 
