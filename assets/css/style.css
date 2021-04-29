@@ -3,8 +3,6 @@
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 1.5em;
-    padding-left: 0;
-    padding-right: 0;
 }
 
 h1, h2, h3 {
@@ -19,13 +17,31 @@ h1, h2, h3 {
 }
 
 .hero-image-container {
-    padding-left: 0;
-    padding-right: 0;
+    height: 600px;
+    background: url('../images/ben-garratt-latte-art-unsplash.jpg') no-repeat 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .about-container {
-    padding-left: 0;
-    padding-right: 0;
+    height: 600px;
+    background: url('../images/close-up-espresso-machine-unsplash.jpg') no-repeat 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .footer-container {
@@ -37,19 +53,8 @@ h1, h2, h3 {
     color: #fff;
     font-size: 130%;
 }
-.hero-image {
-    height: 600px;
-}
 
 /* --------------- Jumbotrons --------------- */
-.index-jumbotron {
-    background: url('../images/ben-garratt-latte-art-unsplash.jpg') no-repeat 50% 50%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
-}
 
 .index-jumbotron h1 {
     background-color: transparent;
@@ -61,15 +66,6 @@ h1, h2, h3 {
     /* found this method at https://css-tricks.com/centering-css-complete-guide/ */
 }
 
-.about-jumbotron {
-    background: url('../images/close-up-espresso-machine-unsplash.jpg') no-repeat 50% 50%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
-}
-
 .about-jumbotron h1 {
     background-color: transparent;
     color: #517690;
@@ -79,10 +75,6 @@ h1, h2, h3 {
     transform: translate(-50%, -50%);
     font-size: 1.5em;
     font-weight: 600;
-}
-
-.about-image {
-    height: 600px;
 }
 
 /* --------------- Reasons --------------- */
@@ -129,6 +121,7 @@ h1, h2, h3 {
 
 .about-us h2 {
     color: #517690;
+    margin-bottom: 20px;
 }
 
 .overview h2 {
