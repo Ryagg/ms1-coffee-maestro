@@ -28,6 +28,7 @@ h1, h2, h3 {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    vertical-align: middle;
 }
 
 .about-container {
@@ -41,7 +42,7 @@ h1, h2, h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+
 }
 
 .container-orange {
@@ -111,9 +112,9 @@ h1, h2, h3 {
     margin-top: 20px;
 }
 
-.about-us h2 {
+.light-blue h2 {
     color: #517690;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .overview h2 {
