@@ -13,6 +13,7 @@ The site targets both coffee lovers who want to extend their knowledge about cof
 ## **Table of contents**
 
 - [**Coffee maestro**](#--coffee-maestro--)
+  - [**Table of contents**](#--table-of-contents--)
   - [**User Experience (UX)**](#--user-experience--ux---)
     - [**User personas**](#--user-personas--)
       - [As a frequent online shopper I want](#as-a-frequent-online-shopper-i-want)
@@ -21,6 +22,13 @@ The site targets both coffee lovers who want to extend their knowledge about cof
       - [As a coffee enthusiast I want](#as-a-coffee-enthusiast-i-want)
       - [An an aspiring barista I want](#an-an-aspiring-barista-i-want)
     - [**Site owners Goals**](#--site-owners-goals--)
+    - [**User Requirements and Expectations**](#--user-requirements-and-expectations--)
+      - [Expectation: being able to easily contact support](#expectation--being-able-to-easily-contact-support)
+      - [Expectation: being able to quickly navigate the page](#expectation--being-able-to-quickly-navigate-the-page)
+      - [Expectation: being able to view evaluations from other customers](#expectation--being-able-to-view-evaluations-from-other-customers)
+      - [Expectation: being able to gift courses](#expectation--being-able-to-gift-courses)
+      - [Expectation: learning how make speciality coffees](#expectation--learning-how-make-speciality-coffees)
+      - [Expectation: finding an affordable, certified barista course](#expectation--finding-an-affordable--certified-barista-course)
   - [**Design**](#--design--)
     - [**Colour Scheme**](#--colour-scheme--)
     - [**Typography**](#--typography--)
@@ -38,13 +46,22 @@ The site targets both coffee lovers who want to extend their knowledge about cof
     - [**Libraries & Frameworks**](#--libraries---frameworks--)
     - [**Tools**](#--tools--)
   - [**Testing**](#--testing--)
+    - [**Navigation bar**](#--navigation-bar--)
+    - [**Mailing list**](#--mailing-list--)
+    - [**Modal**](#--modal--)
+    - [**Contact**](#--contact--)
+    - [**Map**](#--map--)
     - [**Final testing**](#--final-testing--)
   - [**Bugs**](#--bugs--)
   - [**Deployment**](#--deployment--)
   - [**Credits**](#--credits--)
-  - [**Acknowledgements**](#--acknowledgements--)
+    - [**Content**](#--content--)
+    - [**Media**](#--media--)
+  - [**Inspiration**](#--inspiration--)
+    - [**Acknowledgements**](#--acknowledgements--)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## **User Experience (UX)**
 
@@ -101,26 +118,32 @@ Based on the above user stories, I developed the following user requirements and
 #### Expectation: being able to easily contact support
 
 - Requirement: provide user with several options to contact support and make them easy to find
+- Implementation: the contact page provides the user both with the necessary data to contact support per phone, mail or letter and a form he/she can fill out and submit.
 
 #### Expectation: being able to quickly navigate the page
 
 - Requirement: offer a navbar like users have learned to expect from websites
+- Implementation: The navbar is positioned at the top of the site and is clearly labelled.
 
 #### Expectation: being able to view evaluations from other customers
 
 - Requirement: Collect feedback from customers. Place it on the site where it can be easily spotted.
+- Implementation: the bottom of the landing page features quotes from the (fictive) customers.
 
 #### Expectation: being able to gift courses
 
 - Requirement: Create vouchers and make them work within payment processing
+- Implementation: not yet implemented.
 
 #### Expectation: learning how make speciality coffees
 
 - Requirement: include appropriate content about coffee preparation in all courses
+-Implementation: each course features the preparation of speciality coffees which grow more complex with each course.
 
 #### Expectation: finding an affordable, certified barista course
 
 - Requirement: become SCA certified. Use SEO so that potential customers can find out about the course.
+- Implementation: the most advanced course is SCA-certified, new courses with certification will be offered and - rudimentary - SEO is used.
 
 ## **Design**
 
@@ -334,8 +357,6 @@ Lighthouse was used for each page in mobile and desktop view. The results are li
 
 - WAVE Evaluation Tool Results  
 While I think that the web accessibility evaluation tool (WAVE) is quite useful, it does have some irritating features. Firstly, it doesn't allow for any kind of report to be exported. Secondly, it keeps on showing 4 contrast errors. When viewed in detail, the contrast is shown for my background colour #343A40 and a foreground colour #007BFF. This colour isn't used by any elements on my pages, but it is included in the imported bootstrap CSS-file. Therefore, I decided against using the WAVE tool.
-
-Testing User Stories from User Experience Section (???)
 
 ## **Bugs**
 
