@@ -178,6 +178,7 @@ Features to be implemented
 - [Balsamiq](https://balsamiq.com/)
 - [Coolors colour palette generator](https://coolors.co/)
 - [Techsini](http://techsini.com/multi-mockup/)
+- [IrfanView](https://www.irfanview.com/)
 - [Google Cloud Platform](https://cloud.google.com/)
 - [W3C HTML Validation Service](https://validator.w3.org/)
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
@@ -194,10 +195,24 @@ Element name
 
 Final testing
 
-- W3C Markup Validator Results
-- W3C CSS Validator Results
-- Lighthouse Results
-- WAVE Evaluation Tool Results
+- [W3C Markup Validator](https://validator.w3.org/) Results  
+No errors are reported.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Results  
+When using 'validate by direct input' no errors are found. Several warnings are displayed due to the usage of vendor prefixes.  
+ When using 'validate by URI' two errors and several hundred warnings are found, which are caused by the bootstrap CSS-file.
+- Lighthouse Results  
+Lighthouse was used for each page in mobile and desktop view. The results are linked below.  
+  - [index-mobile](https://ryagg.github.io/coffee-maestro/assets/lighthouse-reports/ryagg.github.io-index-mobile.html)  
+  - [index-desktop](https://ryagg.github.io/coffee-maestro/assets/lighthouse-reports/ryagg.github.io-index-desktop.html)  
+  - [about-mobile](https://ryagg.github.io/coffee-maestro/assets/lighthouse-reports/ryagg.github.io-about-mobile.html)  
+  - [about-desktop](https://ryagg.github.io/coffee-maestro/assets/lighthouse-reports/ryagg.github.io-about-desktop.html)  
+  - [courses-mobile](https://ryagg.github.io/coffee-maestro/assets/lighthouse-reports/ryagg.github.io-courses-mobile.html)  
+  - [courses-desktop](https://ryagg.github.io/coffee-maestro/assets/lighthouse-reports/ryagg.github.io-courses-desktop.html)  
+  - [contact-mobile](https://ryagg.github.io/coffee-maestro/assets/lighthouse-reports/ryagg.github.io-contact-mobile.html)  
+  - [contact-desktop](https://ryagg.github.io/coffee-maestro/assets/lighthouse-reports/ryagg.github.io-contact-desktop.html)
+
+- WAVE Evaluation Tool Results  
+While I think that the web accessibility evaluation tool (WAVE) is quite useful, it does have some irritating features. Firstly, it doesn't allow for any kind of report to be exported. Secondly, it keeps on showing 4 contrast errors. When viewed in detail, the contrast is shown for my background colour #343A40 and a foreground colour #007BFF. This colour isn't used by any elements on my pages, but it is included in the imported bootstrap CSS-file. Therefore, I decided against using the WAVE tool.
 
 Testing User Stories from User Experience Section (???)
 
