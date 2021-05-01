@@ -96,10 +96,31 @@ For these personas I created the following user stories:
 
 ### **User Requirements and Expectations**
 
-Based on the above user stories, I developed the following user requirements and expectations. Due to the limitations (Frontend only)of this project, not all user stories could be taken into consideration. Furthermore, due to nature of the product being offered not all expectations are applicable, e.g. easy return options.
+Based on the above user stories, I developed the following user requirements and expectations. Due to the limitations (Frontend only)of this project, not all user stories could be taken into consideration or be fully tested, e.g. different payment options. Furthermore, due to nature of the product being offered not all expectations are applicable, e.g. easy return options. These were also not taken into consideration.
 
-- Requirements
-- Expectations
+#### Expectation: being able to easily contact support
+
+- Requirement: provide user with several options to contact support and make them easy to find
+
+#### Expectation: being able to quickly navigate the page
+
+- Requirement: offer a navbar like users have learned to expect from websites
+
+#### Expectation: being able to view evaluations from other customers
+
+- Requirement: Collect feedback from customers. Place it on the site where it can be easily spotted.
+
+#### Expectation: being able to gift courses
+
+- Requirement: Create vouchers and make them work within payment processing
+
+#### Expectation: learning how make speciality coffees
+
+- Requirement: include appropriate content about coffee preparation in all courses
+
+#### Expectation: finding an affordable, certified barista course
+
+- Requirement: become SCA certified. Use SEO so that potential customers can find out about the course.
 
 ## **Design**
 
@@ -228,13 +249,70 @@ Differences in the deployed version:
 
 ***
 
-Element name
+### **Navigation bar**
 
-- Plan
-- Implementation
-- Test
-- Result
+- Plan  
+Make the site easy to navigate by providing a navbar and using easily understandable names for the pages.
+- Implementation  
+I used the Bootstrap navbar and added several Bootstrap classes to position it on the right side for all devices, except mobiles. On mobile devices I also used Bootstrap to make the navbar collapse and be displayed within the hamburger sign.
+- Test  
+I tested all links on all pages and with different browsers to make sure that the correct site is displayed.
+- Result  
+Each site is reachable from every page and on every browser.
+- Verdict  
+Working as intended.
+
+### **Mailing list**
+
+- Plan  
+Give the user the opportunity to be updated with news about the courses and training centres.
+- Implementation  
+I used the Bootstrap form-row with client-side validation and the required attribute so that the user can subscribe to the site's mailing list.
+- Test  
+I tried to subscribe without entering any data and without a complete email address.
+- Result  
+When clicking 'Subscribe' without entering any data, the user is asked to fill out the field. When entering a non-valid email address, the user is asked to add the missing part.
+- Verdict  
+Working as intended.
+
+### **Modal**
+
+- Plan  
+Give the user the opportunity to book a place in a course and choose his/her preferred payment option. The user should receive feedback after a successful booking. The user should also be able to cancel the process.
+- Implementation  
+I used Bootstrap for the modal and made it scrollable and centred with Bootstrap classes. I also used client-side validation. For the payment options I used radio buttons. In addition to a 'Submit' button I also implemented a 'Cancel' button.
+- Test  
+I tried to submit without filling out all fields, without choosing a preferred payment option and I tried to cancel the process.
+- Result  
+When clicking 'Submit' without filling out all fields or without choosing a preferred payment option or when entering invalid data the user is asked to enter the missing data or to correct his/her input. After the data has been submitted the user is shown a confirmation. The process can be cancelled at all times.
+- Verdict  
+Working as intended.
+
+### **Contact**
+
+- Plan  
+Give the user the opportunity to easily contact support or a representative of the company and receive feedback about a successful submission. The user should be able to cancel the process.
+- Implementation  
+I used Bootstrap form groups and textarea with client-side validation. The user can either submit his/her data or clear the form.
+- Test  
+I tried to submit without entering any data, without filling out all forms and to clear the form.
+- Result  
+When clicking 'Submit' without filling out any or all fields or when entering invalid data the user is asked to enter the missing data or to correct his/her input. After the data has been submitted the user is shown a confirmation. The process can be cancelled at all times.
+- Verdict  
+Working as intended.
+
+### **Map**
+
+- Plan  
+Give the user the opportunity to see at a glance where the courses will take place, to view a larger map and to get directions.
+- Implementation  
+I used an iFrame with an embedded responsive Google Map. I registered an API key at [Google Cloud Platform](https://cloud.google.com/) and restricted both the URLs that can use the key and the APIs that can be accessed with it. I used the instructions at [developers.google.com](https://developers.google.com/maps/documentation/embed/get-api-key) to create and restrict the API key.
+- Test  
+Check whether the map is displayed. Click on links for larger maps and directions.
+- Result  
+The map is displayed and the larger map and the directions link open in new tabs.
 - Verdict
+Working as intended.
 
 ### **Final testing**
 
@@ -263,7 +341,7 @@ Testing User Stories from User Experience Section (???)
 
 ***
 
-Throughout the development process several tools (Chrome Developer Tools including Lighthouse, Sizzy, W3c Markup and CSS Validators) have been used to find bugs. Please refer to commit messages with the 'fix' prefix. At the time of submission I'm not aware of further bugs.
+Throughout the development process several tools (Chrome Developer Tools including Lighthouse, Sizzy, W3C Markup and CSS Validators) have been used to find bugs. Please refer to commit messages with the 'fix' prefix. At the time of submission I'm not aware of further bugs.
 
 ## **Deployment**
 
