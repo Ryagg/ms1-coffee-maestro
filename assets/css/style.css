@@ -18,7 +18,7 @@ h1, h2, h3 {
 
 .hero-image-container {
     height: 600px;
-    background: url('../images/ben-garratt-latte-art-unsplash.jpg') no-repeat 50% 50%;
+    background: url('../images/latte-art-1920px.jpg') no-repeat 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,7 +33,7 @@ h1, h2, h3 {
 
 .about-container {
     height: 600px;
-    background: url('../images/close-up-espresso-machine-unsplash.jpg') no-repeat 50% 50%;
+    background: url('../images/espresso-machine-1920px.jpg') no-repeat 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -268,6 +268,14 @@ h1, h2, h3 {
 @media(max-width: 425px) {
     .index-jumbotron h1 {
         font-size: smaller;
+    }
+
+    .hero-image-container {
+        background: url('../images/latte-art-380px.jpg') no-repeat 50% 50%;
+    }
+
+    .about-container {
+        background: url('../images/espresso-machine-380px.jpg') no-repeat 50% 50%;
     }
 }
 
