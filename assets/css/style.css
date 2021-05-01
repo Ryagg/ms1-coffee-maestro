@@ -272,10 +272,18 @@ h1, h2, h3 {
 
     .hero-image-container {
         background: url('../images/latte-art-380px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .about-container {
         background: url('../images/espresso-machine-380px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 }
 
