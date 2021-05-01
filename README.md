@@ -1,4 +1,4 @@
-# Coffee maestro
+# **Coffee maestro**
 
 Link to live project: [Coffee maestro](https://ryagg.github.io/ms1-coffee-maestro)
 
@@ -10,13 +10,49 @@ The site targets both coffee lovers who want to extend their knowledge about cof
 
 ![Mockup](assets/images/mockups/mockup-v2.png)
 
-Table of contents with links
+## **Table of contents**
 
-## User Experience (UX)
+- [**Coffee maestro**](#--coffee-maestro--)
+  - [**User Experience (UX)**](#--user-experience--ux---)
+    - [**User personas**](#--user-personas--)
+      - [As a frequent online shopper I want](#as-a-frequent-online-shopper-i-want)
+      - [As a sporadic online shopper I want](#as-a-sporadic-online-shopper-i-want)
+      - [As a casual coffee drinker I want](#as-a-casual-coffee-drinker-i-want)
+      - [As a coffee enthusiast I want](#as-a-coffee-enthusiast-i-want)
+      - [An an aspiring barista I want](#an-an-aspiring-barista-i-want)
+    - [**Site owners Goals**](#--site-owners-goals--)
+  - [**Design**](#--design--)
+    - [**Colour Scheme**](#--colour-scheme--)
+    - [**Typography**](#--typography--)
+    - [**Icons**](#--icons--)
+    - [**Imagery**](#--imagery--)
+      - [index.html](#indexhtml)
+      - [about.html](#abouthtml)
+      - [courses.html](#courseshtml)
+    - [**Wireframes**](#--wireframes--)
+  - [**Features**](#--features--)
+    - [**Existing Features**](#--existing-features--)
+    - [**Features to be implemented**](#--features-to-be-implemented--)
+  - [**Technologies Used**](#--technologies-used--)
+    - [**Languages**](#--languages--)
+    - [**Libraries & Frameworks**](#--libraries---frameworks--)
+    - [**Tools**](#--tools--)
+  - [**Testing**](#--testing--)
+    - [**Final testing**](#--final-testing--)
+  - [**Bugs**](#--bugs--)
+  - [**Deployment**](#--deployment--)
+  - [**Credits**](#--credits--)
+  - [**Acknowledgements**](#--acknowledgements--)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+## **User Experience (UX)**
+
+***
 
 For user personas and stories I conducted short qualitative interviews with colleagues, friends and family. I used the results to generate five user personas. Two of them are different kind of online shoppers and the remaining three personas are coffee drinkers with varying goals for visiting the site.
 
-### User personas
+### **User personas**
 
 - Persona1: casual coffee drinker
 - Persona2: coffee enthusiast
@@ -51,33 +87,37 @@ For these personas I created the following user stories:
 
 - to find an affordable, certified barista course so that I improve my chances of getting a job a a barista
 
-### Site owners Goals
+### **Site owners Goals**
 
 - to attract different kind of buyers to the site
 - to generate sales
 - to generate returning visitors and sales
 - to generate a network of potential partners for future collaborations
 
-- User Requirements and Expectations (already included in the above section?)
+### **User Requirements and Expectations**
+
+Based on the above user stories, I developed the following user requirements and expectations. Due to the limitations (Frontend only)of this project, not all user stories could be taken into consideration. Furthermore, due to nature of the product being offered not all expectations are applicable, e.g. easy return options.
 
 - Requirements
 - Expectations
 
-## Design
+## **Design**
 
-### Colour Scheme
+***
+
+### **Colour Scheme**
 
 I used variations of black, white and grey as main colours for a modern and professional look. To add warmth and a nice contrast I used warm colours like shades of orange for some backgrounds and headings. I used [Coolors](https://coolors.co) to generate my colour palette.
 
-### Typography
+### **Typography**
 
 For fonts, I used [Google Fonts](https://fonts.google.com) to compare various designs. I chose Yanone Kaffeesatz as my primary display typeface. I wanted to recreate the style and allure of coffee houses from the 1920s. Additionally, being used on coffee and food-related packaging worldwide adds a subliminal familiarity. As secondary font I chose Roboto to add both a strong, but nice contrast and a modern touch.
 
-### Icons
+### **Icons**
 
 I implemented icons from [Font Awesome](https://fontawesome.com) on the landing page to catch the user's eye without distracting from the content.
 
-### Imagery
+### **Imagery**
 
 All images were taken from [Unsplash](https://unsplash.com). Credit for the individual pictures is given below.
 
@@ -103,9 +143,7 @@ Coffee beans, ground coffee and latte art: Photo by [Nathan Dumlao](https://unsp
 
 Counter with 2 professional espresso machines: Photo by [Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-macchiato?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-### Structure
-
-### Wireframes
+### **Wireframes**
 
 I used Balsamiq to create my wireframes. It is beginner-friendly and very intuitive to use. To better demonstrate the differences, I sort my wireframes by page and show the versions for mobile, tablet and desktop next to each other.
 
@@ -136,9 +174,11 @@ Differences in the deployed version:
 - Icons have been added to the buttons
 - The embedded Google Map has been placed below the contact form on all devices
 
-## Features
+## **Features**
 
-### Existing Features
+***
+
+### **Existing Features**
 
 - The site is responsive
 - The navbar allows quick navigation throughout the site
@@ -149,26 +189,26 @@ Differences in the deployed version:
 - The embedded Google Map allows the user a quick overview with additional links for directions and a larger map, which open in a new tab
 - Links to the company's social media are provided and open in new tabs
 
-Features to be implemented
+### **Features to be implemented**
 
 - Option for the user to choose date and place for the course
 - Option to buy course vouchers as a gift
 - Payment processing
 
-## Technologies Used
+## **Technologies Used**
 
-### Languages
+### **Languages**
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-### Libraries & Frameworks
+### **Libraries & Frameworks**
 
 - [Bootstrap 4.5.3](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](https://fontawesome.com/)
 
-### Tools
+### **Tools**
 
 - [VSCode](https://code.visualstudio.com/)
 - [Git BASH](https://gitforwindows.org/)
@@ -182,8 +222,11 @@ Features to be implemented
 - [Google Cloud Platform](https://cloud.google.com/)
 - [W3C HTML Validation Service](https://validator.w3.org/)
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [GitHub Wiki TOC generator](https://ecotrust-canada.github.io/markdown-toc/)
 
-## Testing
+## **Testing**
+
+***
 
 Element name
 
@@ -193,7 +236,7 @@ Element name
 - Result
 - Verdict
 
-Final testing
+### **Final testing**
 
 - [W3C Markup Validator](https://validator.w3.org/) Results  
 No errors are reported.
@@ -216,11 +259,15 @@ While I think that the web accessibility evaluation tool (WAVE) is quite useful,
 
 Testing User Stories from User Experience Section (???)
 
-## Bugs
+## **Bugs**
+
+***
 
 Throughout the development process several tools (Chrome Developer Tools including Lighthouse, Sizzy, W3c Markup and CSS Validators) have been used to find bugs. Please refer to commit messages with the 'fix' prefix. At the time of submission I'm not aware of further bugs.
 
-## Deployment
+## **Deployment**
+
+***
 
 - GitHub Pages  
 
@@ -246,10 +293,25 @@ If you wish to use this repository as a starting point or to propose changes to 
     6. Type 'git clone' followed by the URL copied in step 3.
     7. Press **Enter** to create your local clone.
 
-## Credits
+## **Credits**
 
-- Content
-- Media
-- Inspiration
+***
 
-## Acknowledgements
+### **Content**
+
+All content for this project was written by myself.
+
+### **Media**
+
+All photos used for this project were obtained from [Unsplash](https://unsplash.com). Please refer to the [**Imagery**](#--imagery--) section for credits for the individual photos.
+
+## **Inspiration**
+
+I used [hejcoffee](https://www.hejcoffee.co.uk/barista-courses/) and [artisancoffeeschool](https://www.artisancoffeeschool.co.uk/our-courses/) as templates for the courses on my site.
+
+### **Acknowledgements**
+
+Many thanks to the following persons:  
+
+- My mentor Maranatha Ilesanmi for his helpful insights and feedback.
+- My brother Thomas Lange and my colleagues Matthias Rieger, Cordula Mzyk-Zourelidis, Ekaterina Vakhonina and Alla Krause for their willingness to test the site and their feedback.
