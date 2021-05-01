@@ -8,7 +8,7 @@ The project features a static website where barista courses are offered for purc
 
 The site targets both coffee lovers who want to extend their knowledge about coffee and to learn new methods of preparation as well as aspiring baristas who want to make a career out of their passion for coffee.
 
-![Mockup](assets/images/mockups/mockup-v1.png)
+![Mockup](assets/images/mockups/mockup-v2.png)
 
 Table of contents with links
 
@@ -218,16 +218,33 @@ Testing User Stories from User Experience Section (???)
 
 ## Bugs
 
-Element
-
-- Bug
-- Fix
+Throughout the development process several tools (Chrome Developer Tools including Lighthouse, Sizzy, W3c Markup and CSS Validators) have been used to find bugs. Please refer to commit messages with the 'fix' prefix. At the time of submission I'm not aware of further bugs.
 
 ## Deployment
 
-- Git Hub Pages
-- Forking
-- Cloning
+- GitHub Pages  
+
+  1. The project was deployed on GitHub Pages. The following steps were taken.
+  2. In the repository, go the the project main page.
+  3. Click on 'Settings' and then scroll down to the section 'GitHub Pages'.
+  4. Click on the link for the new dedicated Page settings tab.
+  5. In the new window using the drop-down menu select the main branch and then click on 'Save'.
+  6. The site is now published and a link is provided.
+
+- Forking  
+If you wish to use this repository as a starting point or to propose changes to this project, you can fork it. Follow the steps below.
+  1. Navigate to the repository, e.g. [Ryagg/ms1-coffee-maestro](https://github.com/Ryagg/ms1-coffee-maestro)
+  2. Click 'Fork' in the top-right corner.
+
+- Cloning  
+  Cloning a repository creates a local copy on your computer. Follow the steps below.
+    1. Navigate to the repository, e.g. [Ryagg/ms1-coffee-maestro](https://github.com/Ryagg/ms1-coffee-maestro)
+    2. Click 'Code' above the list of files.
+    3. In the new window, cloning using HTTPS is the default option. Copy the provided link manually or by clicking on the clipboard symbol.
+    4. Open Git Bash.
+    5. Navigate to your desired directory for the cloned project.
+    6. Type 'git clone' followed by the URL copied in step 3.
+    7. Press **Enter** to create your local clone.
 
 ## Credits
 
