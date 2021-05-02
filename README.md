@@ -337,6 +337,19 @@ The map is displayed and the larger map and the directions link open in new tabs
 - Verdict
 Working as intended.
 
+### **404 page**
+
+- Plan  
+Give the user the opportunity to return to the homepage if he/she entered an invalid URL.
+- Implementation  
+I created a '.htaccess' file following the instruction [here](https://www.lcn.com/blog/beginners-guide-custom-404-pages/) and a 404 page. To fix a W3C Markup Validator error I followed the instructions from user joby-flick in [this stackoverflow thread](https://stackoverflow.com/questions/3341011/making-a-button-thats-a-link-in-html).
+- Test  
+Deliberately use wrong subdomain-names and explicitly enter the complete 404 URL.
+- Result  
+The 404 page is displayed and the user can use the provided link to return to the main page.
+- Verdict
+Working as intended.
+
 ### **Final testing**
 
 - [W3C Markup Validator](https://validator.w3.org/) Results  
@@ -354,6 +367,8 @@ Lighthouse was used for each page in mobile and desktop view. The results are li
   - [courses-desktop](assets/lighthouse-reports/courses-desktop.png)  
   - [contact-mobile](assets/lighthouse-reports/contact-mobile.png)  
   - [contact-desktop](assets/lighthouse-reports/contact-desktop.png)
+  - [404-mobile](assets/lighthouse-reports/404-mobile.png)  
+  - [404-desktop](assets/lighthouse-reports/404-desktop.png)
 
 - WAVE Evaluation Tool Results  
 While I think that the web accessibility evaluation tool (WAVE) is quite useful, it does have some irritating features. Firstly, it doesn't allow for any kind of report to be exported. Secondly, it keeps on showing 4 contrast errors. When viewed in detail, the contrast is shown for my background colour #343A40 and a foreground colour #007BFF. This colour isn't used by any elements on my pages, but it is included in the imported bootstrap CSS-file. Therefore, I decided against using the WAVE tool.
