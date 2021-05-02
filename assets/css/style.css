@@ -270,11 +270,11 @@ h1, h2, h3 {
     padding-top: 20px;
 }
 
-.btn-return-home a {
+.home {
     color: #fff;
     font-size: 1.2em;
     font-weight: 500;
-
+    margin: 20px 0;
 }
 
 /* --------------- Footer --------------- */
