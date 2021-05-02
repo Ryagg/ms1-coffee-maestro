@@ -42,12 +42,15 @@ h1, h2, h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .container-orange {
     background-color: #B2442E;
     color: rgb(255, 255, 255);
+}
+
+.not-found-container {
+    background-color: #FAF9F9;
 }
 
 .footer-container {
@@ -250,6 +253,30 @@ h1, h2, h3 {
     padding: 20px 0;
 }
 
+/* --------------- Not found --------------- */
+
+.not-found {
+    color: #343A40;
+    background-color: #FAF9F9;
+}
+
+.not-found-container img {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.lost {
+    padding-top: 20px;
+}
+
+.btn-return-home a {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+
+}
+
 /* --------------- Footer --------------- */
 
 .footer-container i {
@@ -285,6 +312,7 @@ h1, h2, h3 {
         -o-background-size: cover;
         background-size: cover;
     }
+
 }
 
 @media(min-width: 1024px) {
