@@ -135,6 +135,7 @@ h1, h2, h3 {
     background-color: #517690;
     color: #fff;
     font-size: 1em;
+    margin: 10px 0;
 }
 
 .btn-subscribe:hover {
