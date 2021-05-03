@@ -8,7 +8,7 @@ The project features a static website where barista courses are offered for purc
 
 The site targets both coffee lovers who want to extend their knowledge about coffee and to learn new methods of preparation as well as aspiring baristas who want to make a career out of their passion for coffee.
 
-![Mockup](assets/images/mockups/mockup-v2.png)
+![Mockup](assets/images/mockups/mockup-v3.png)
 
 ## **Table of contents**
 
@@ -262,6 +262,7 @@ Differences in the deployed version:
 - [Balsamiq](https://balsamiq.com/)
 - [Coolors colour palette generator](https://coolors.co/)
 - [Techsini](http://techsini.com/multi-mockup/)
+- [Am I Responsive?](http://ami.responsivedesign.is/#)
 - [IrfanView](https://www.irfanview.com/)
 - [Google Cloud Platform](https://cloud.google.com/)
 - [W3C HTML Validation Service](https://validator.w3.org/)
