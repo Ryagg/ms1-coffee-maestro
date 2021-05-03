@@ -71,12 +71,9 @@ h1, h2, h3 {
 }
 
 .about-jumbotron h1 {
-    background-color: transparent;
-    color: #517690;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-color: rgb(248 249 250 / 20%);
+    color: #072a43;
+    padding: 10px 20px;
     font-size: 1.5em;
     font-weight: 600;
 }
@@ -116,23 +113,23 @@ h1, h2, h3 {
 }
 
 .light-blue h2 {
-    color: #517690;
+    color: #072a43;
     margin: 20px 0;
 }
 
 .overview h2 {
-    color: #517690;
+    color: #072a43;
 }
 
 .mailing-list h2 {
-    color: #517690;
+    color: #072a43;
 }
 .subscribe input {
     font-size: 1em;
 }
 
 .btn-subscribe {
-    background-color: #517690;
+    background-color: #072a43;
     color: #fff;
     font-size: 1em;
     margin: 10px 0;
@@ -140,8 +137,8 @@ h1, h2, h3 {
 
 .btn-subscribe:hover {
     background-color: #fff;
-    color: #517690;
-    border: 1px solid #517690;
+    color: #072a43;
+    border: 1px solid #072a43;
 }
 
 /* --------------- Courses --------------- */
