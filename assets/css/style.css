@@ -50,8 +50,17 @@ h1, h2, h3 {
 }
 
 .not-found-container {
-    background-color: #FAF9F9;
-}
+        height: 100vh;
+        background: url('../images/cat-on-kittchen-table-1920px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        /*align-items: center;*/
+        justify-content: center;
+    }
 
 .footer-container {
     color: rgb(255, 255, 255);
@@ -254,25 +263,28 @@ h1, h2, h3 {
 /* --------------- Not found --------------- */
 
 .not-found {
-    color: #343A40;
-    background-color: #FAF9F9;
+    color: #FE6003;
 }
 
-.not-found-container img {
-    width: 50%;
-    margin: auto;
-    display: block;
+.not-found h1 {
+    margin-top: 20px;
 }
 
-.lost {
-    padding-top: 20px;
+.not-found p {
+    background-color: #fff;
+    padding: 5px;
+}
+
+#message-bottom {
+    position: absolute;
+    bottom: 0;
 }
 
 .home {
     color: #fff;
-    font-size: 1.2em;
-    font-weight: 500;
-    margin: 20px 0;
+    font-size: inherit;
+    width: 30%;
+    margin: auto;
 }
 
 /* --------------- Footer --------------- */
@@ -311,6 +323,14 @@ h1, h2, h3 {
         background-size: cover;
     }
 
+    .not-found h1 {
+        font-size: 1.3em;
+    }
+
+    #message-bottom {
+        font-size: .8em;
+    }
+
 }
 
 @media(min-width: 1024px) {
@@ -325,6 +345,14 @@ h1, h2, h3 {
     }
     .blockquote {
         font-size: 1em;
+    }
+
+    .not-found h1 {
+        font-size: 2em;
+    }
+
+    #message-bottom {
+        font-size: 1.3em;
     }
 }
 
@@ -351,5 +379,13 @@ h1, h2, h3 {
 
     .modal-body label {
         font-size: 1.2em;
+    }
+
+    .not-found h1 {
+        font-size: 3em;
+    }
+
+    #message-bottom {
+        font-size: 1.5em;
     }
 }
