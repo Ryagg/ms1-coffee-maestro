@@ -141,7 +141,7 @@ Images were used to create a sense of artisanship, flavour, love for details and
 
 I used Balsamiq to create my wireframes. It is beginner-friendly and very intuitive to use. To better demonstrate the differences, I sort my wireframes by page and show the versions for mobile, tablet and desktop next to each other.
 
-[Wireframes for index.html](assets/images/wireframes/index.png)
+[Wireframes for index.html](assets/images/wireframes/index.png)  
 ![wireframes for index.html](assets/images/wireframes/index.png)  
 Differences in the deployed version:
 
@@ -149,22 +149,22 @@ Differences in the deployed version:
 - Also due to a validator error message, a heading has been added to the jumbotron with the hero image.
 - The small hero image 2 hasn't been implemented. In my opinion it wouldn't have improved the site.  
 
-[Wireframes for about.html](assets/images/wireframes/about.png)
+[Wireframes for about.html](assets/images/wireframes/about.png)  
 ![wireframes for about.html](assets/images/wireframes/about.png)  
 Differences in the deployed version:
 
 - I chose to use a background image, which is displayed above the text for all resolutions instead of an image, which is displayed to the left or right side of the text for larger resolutions.
 - Instead of a second list I added the option to subscribe to a mailing list. The mailing list is placed beneath the table for all resolutions.
 
-[Wireframes for courses.html](assets/images/wireframes/contact.png)
-![wireframes for courses.html](assets/images/wireframes/contact.png)  
+[Wireframes for courses.html](assets/images/wireframes/courses.png)  
+![wireframes for courses.html](assets/images/wireframes/courses.png)  
 Differences in the deployed version:
 
 - For mobile devices, the images have been removed to improve loading times
 - And additional heading and badges have been added for each course
 
-[Wireframes for contact.html](assets/images/wireframes/courses.png)
-![wireframes for contact.html](assets/images/wireframes/courses.png)  
+[Wireframes for contact.html](assets/images/wireframes/contact.png)  
+![wireframes for contact.html](assets/images/wireframes/contact.png)  
 Please note: the single input field left to the map in the desktop view was put there during a call with my mentor as a reminder to move the complete form there. As stated below, I decided against it in the end.  
  Differences in the deployed version:
 
