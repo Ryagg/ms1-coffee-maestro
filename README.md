@@ -64,7 +64,6 @@ The site targets both coffee lovers who want to extend their knowledge about cof
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-
 ## **User Experience (UX)**
 
 ***
@@ -115,40 +114,6 @@ For these personas I created the following
 - to generate returning visitors and sales
 - to generate a network of potential partners for future collaborations
 
-### **User Requirements and Expectations**
-
-Based on the above user stories, I developed the following user requirements and expectations. Due to the limitations (Frontend only)of this project, not all user stories could be taken into consideration or be fully tested, e.g. different payment options. Furthermore, due to nature of the product being offered not all expectations are applicable, e.g. easy return options. These were also not taken into consideration.
-
-#### Expectation: being able to easily contact support
-
-- Requirement: provide user with several options to contact support and make them easy to find
-- Implementation: the contact page provides the user both with the necessary data to contact support per phone, mail or letter and a form he/she can fill out and submit.
-
-#### Expectation: being able to quickly navigate the page
-
-- Requirement: offer a navbar like users have learned to expect from websites
-- Implementation: The navbar is positioned at the top of the site and is clearly labelled.
-
-#### Expectation: being able to view evaluations from other customers
-
-- Requirement: Collect feedback from customers. Place it on the site where it can be easily spotted.
-- Implementation: the bottom of the landing page features quotes from the (fictive) customers.
-
-#### Expectation: being able to gift courses
-
-- Requirement: Create vouchers and make them work within payment processing
-- Implementation: not yet implemented.
-
-#### Expectation: learning how make speciality coffees
-
-- Requirement: include appropriate content about coffee preparation in all courses
--Implementation: each course features the preparation of speciality coffees which grow more complex with each course.
-
-#### Expectation: finding an affordable, certified barista course
-
-- Requirement: become SCA certified. Use SEO so that potential customers can find out about the course.
-- Implementation: the most advanced course is SCA-certified, new courses with certification will be offered and - rudimentary - SEO is used.
-
 ## **Design**
 
 ***
@@ -164,7 +129,7 @@ I used variations of black, dark blue, white and grey as main colours for a mode
 For fonts, I used [Google Fonts](https://fonts.google.com) to compare various designs. I chose Yanone Kaffeesatz as my primary display typeface. I wanted to recreate the style and allure of coffee houses from the 1920s. Additionally, being used on coffee and food-related packaging worldwide adds a subliminal familiarity.  
 ![Yanone Kaffeesatz](assets/images/yanone-kaffeesatz.png)  
 
-As secondary font I chose Roboto to add both a strong, but nice contrast and a modern touch. 
+As secondary font I chose Roboto to add both a strong, but nice contrast and a modern touch.
 
 ![Roboto](assets/images/roboto.png)
 
@@ -270,7 +235,9 @@ Due to the 404 page only being added at the end of the project, no wireframe exi
 
 ***
 
-### **Navigation bar**
+### **Functionality Testing**
+
+#### **Navigation bar**
 
 - Plan  
 Make the site easy to navigate by providing a navbar and using easily understandable names for the pages.
@@ -348,28 +315,96 @@ The 404 page is displayed and the user can use the provided link to return to th
 - Verdict
 Working as intended.
 
-### **Final testing**
+### **W3C Markup Validator**
 
-- [W3C Markup Validator](https://validator.w3.org/) Results  
+[W3C Markup Validator](https://validator.w3.org/) Results  
 No errors are reported.
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Results  
+
+### **W3CSS Validator**
+
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Results  
 When using 'validate by direct input' no errors are found. Several warnings are displayed due to the usage of vendor prefixes.  
  When using 'validate by URI' two errors and several hundred warnings are found, which are caused by the bootstrap CSS-file.
-- Lighthouse Results  
-Lighthouse was used for each page in mobile and desktop view. The results are linked below.  
-  - [index-mobile](assets/lighthouse-reports/index-mobile.png)  
-  - [index-desktop](assets/lighthouse-reports/index-desktop.png)  
-  - [about-mobile](assets/lighthouse-reports/about-mobile.png)  
-  - [about-desktop](assets/lighthouse-reports/about-desktop.png)  
-  - [courses-mobile](assets/lighthouse-reports/courses-mobile.png)  
-  - [courses-desktop](assets/lighthouse-reports/courses-desktop.png)  
-  - [contact-mobile](assets/lighthouse-reports/contact-mobile.png)  
-  - [contact-desktop](assets/lighthouse-reports/contact-desktop.png)
-  - [404-mobile](assets/lighthouse-reports/404-mobile.png)  
-  - [404-desktop](assets/lighthouse-reports/404-desktop.png)
 
-- WAVE Evaluation Tool Results  
+### **Lighthouse**
+
+[index-mobile](assets/lighthouse-reports/index-mobile.png)  
+  ![index-mobile](assets/lighthouse-reports/index-mobile.png)  
+[index-desktop](assets/lighthouse-reports/index-desktop.png)  
+![index-desktop](assets/lighthouse-reports/index-desktop.png)  
+[about-mobile](assets/lighthouse-reports/about-mobile.png)  
+![about-mobile](assets/lighthouse-reports/about-mobile.png)  
+[about-desktop](assets/lighthouse-reports/about-desktop.png)  
+![about-desktop](assets/lighthouse-reports/about-desktop.png)  
+[courses-mobile](assets/lighthouse-reports/courses-mobile.png)  
+![courses-mobile](assets/lighthouse-reports/courses-mobile.png)  
+[courses-desktop](assets/lighthouse-reports/courses-desktop.png)  
+![courses-desktop](assets/lighthouse-reports/courses-desktop.png)  
+[contact-mobile](assets/lighthouse-reports/contact-mobile.png)  
+![contact-mobile](assets/lighthouse-reports/contact-mobile.png)  
+[contact-desktop](assets/lighthouse-reports/contact-desktop.png)  
+![contact-desktop](assets/lighthouse-reports/contact-desktop.png)  
+[404-mobile](assets/lighthouse-reports/404-mobile.png)  
+![404-mobile](assets/lighthouse-reports/404-mobile.png)  
+[404-desktop](assets/lighthouse-reports/404-desktop.png)  
+![404-desktop](assets/lighthouse-reports/404-desktop.png)  
+
+### **WAVE Evaluation Tool Results**  
+
 While I think that the web accessibility evaluation tool (WAVE) is quite useful, it does have some irritating features. Firstly, it doesn't allow for any kind of report to be exported. Secondly, it keeps on showing 4 contrast errors. When viewed in detail, the contrast is shown for my background colour #343A40 and a foreground colour #007BFF. This colour isn't used by any elements on my pages, but it is included in the imported bootstrap CSS-file. Therefore, I decided against using the WAVE tool.
+
+## **Usability Testing**
+
+Family, friends and colleagues were asked to test the site on their computers and/or mobile devices and their preferred browsers. No issues regarding the navigation of the site were reported. Feedback regarding the width of the link to the home page on the 404 page was implemented. No issues regarding the buttons, embedded map or forms were reported.
+
+## **Compatibility Testing**
+
+Both [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) and [Sizzy](https://sizzy.co/) were used throughout the development process to test responsiveness. Especially Sizzy allowed me to view different viewport sizes simultaneously to spot unwanted visuals at a glance. The following devices and viewports were tested:  
+
+- iPhone 5 (320 x 568px)
+- iPhone 8 (375 x 667px)
+- Galaxy Note 10 (412 x 869px)
+- iPad Pro 11 (834 x 1194px)
+- Laptop S (1280 x 800)
+- MacBook Air (1440 x 900px)
+- Desktop (1920 x 1080px)
+- iMac Retina 27 (2560 x 1440px)
+
+## **Testing User Stories**
+
+### **User Requirements and Expectations**
+
+Based on the user stories, I developed the following user requirements and expectations. Due to the limitations (Frontend only)of this project, not all user stories could be taken into consideration or be fully tested, e.g. different payment options. Furthermore, due to nature of the product being offered not all expectations are applicable, e.g. easy return options. These were also not taken into consideration.
+
+#### Expectation: being able to easily contact support
+
+- Requirement: provide user with several options to contact support and make them easy to find
+- Implementation: the contact page provides the user both with the necessary data to contact support per phone, mail or letter and a form he/she can fill out and submit.
+
+#### Expectation: being able to quickly navigate the page
+
+- Requirement: offer a navbar like users have learned to expect from websites
+- Implementation: The navbar is positioned at the top of the site and is clearly labelled.
+
+#### Expectation: being able to view evaluations from other customers
+
+- Requirement: Collect feedback from customers. Place it on the site where it can be easily spotted.
+- Implementation: the bottom of the landing page features quotes from the (fictive) customers.
+
+#### Expectation: being able to gift courses
+
+- Requirement: Create vouchers and make them work within payment processing
+- Implementation: not yet implemented.
+
+#### Expectation: learning how make speciality coffees
+
+- Requirement: include appropriate content about coffee preparation in all courses
+-Implementation: each course features the preparation of speciality coffees which grow more complex with each course.
+
+#### Expectation: finding an affordable, certified barista course
+
+- Requirement: become SCA certified. Use SEO so that potential customers can find out about the course.
+- Implementation: the most advanced course is SCA-certified, new courses with certification will be offered and - rudimentary - SEO is used.
 
 ## **Bugs**
 
@@ -411,11 +446,12 @@ If you wish to use this repository as a starting point or to propose changes to 
 
 ### **Content**
 
-All content for this project was written by myself.
+All content and code for this project was written by myself.
 
 ### **Media**
 
 All photos used for this project were obtained from [Unsplash](https://unsplash.com).  
+
 #### index.html
 
 Heropic: Photo by [Ben Garratt](https://unsplash.com/@wstn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-art?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
@@ -451,4 +487,4 @@ I used [hejcoffee](https://www.hejcoffee.co.uk/barista-courses/) and [artisancof
 Many thanks to the following persons:  
 
 - My mentor Maranatha Ilesanmi for his helpful insights and feedback.
-- My brother Thomas Lange and my colleagues Matthias Rieger, Cordula Mzyk-Zourelidis, Ekaterina Vakhonina and Alla Krause for their willingness to test the site and their feedback.
+- My brother Thomas Lange, my niece V.L. and my colleagues M.R, Cordula Mzyk-Zourelidis, Ekaterina Vakhonina and Alla Krause for their willingness to test the site and their feedback.
