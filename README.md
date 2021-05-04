@@ -1,5 +1,7 @@
 # **Coffee maestro**
 
+## **About**
+
 Link to live project: [Coffee maestro](https://ryagg.github.io/ms1-coffee-maestro)
 
 User Centric Frontend Development Milestone Project for Code Institute's Diploma in Software Development
@@ -77,7 +79,9 @@ For user personas and stories I conducted short qualitative interviews with coll
 - Persona4: frequent online shopper
 - Persona5: sporadic online shopper
 
-For these personas I created the following user stories:
+For these personas I created the following  
+
+### **User stories**
 
 #### As a frequent online shopper I want
 
@@ -151,11 +155,18 @@ Based on the above user stories, I developed the following user requirements and
 
 ### **Colour Scheme**
 
-I used variations of black, white and grey as main colours for a modern and professional look. To add warmth and a nice contrast I used warm colours like shades of orange for some backgrounds and headings. I used [Coolors](https://coolors.co) to generate my colour palette.
+I used variations of black, dark blue, white and grey as main colours for a modern and professional look. To add warmth and a nice contrast I used warm colours like shades of orange for some backgrounds and headings. I used [Coolors](https://coolors.co) to generate my colour palette.  
+
+![Colour palette](assets/images/colour-palette.png)
 
 ### **Typography**
 
-For fonts, I used [Google Fonts](https://fonts.google.com) to compare various designs. I chose Yanone Kaffeesatz as my primary display typeface. I wanted to recreate the style and allure of coffee houses from the 1920s. Additionally, being used on coffee and food-related packaging worldwide adds a subliminal familiarity. As secondary font I chose Roboto to add both a strong, but nice contrast and a modern touch.
+For fonts, I used [Google Fonts](https://fonts.google.com) to compare various designs. I chose Yanone Kaffeesatz as my primary display typeface. I wanted to recreate the style and allure of coffee houses from the 1920s. Additionally, being used on coffee and food-related packaging worldwide adds a subliminal familiarity.  
+![Yanone Kaffeesatz](assets/images/yanone-kaffeesatz.png)  
+
+As secondary font I chose Roboto to add both a strong, but nice contrast and a modern touch. 
+
+![Roboto](assets/images/roboto.png)
 
 ### **Icons**
 
@@ -163,60 +174,45 @@ I implemented icons from [Font Awesome](https://fontawesome.com) on the landing 
 
 ### **Imagery**
 
-All images were taken from [Unsplash](https://unsplash.com). Credit for the individual pictures is given below.
-
-#### index.html
-
-Heropic: Photo by [Ben Garratt](https://unsplash.com/@wstn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-art?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-Male customer on the left: Photo by [Nicolas Horn](https://unsplash.com/@chiefexof?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/human-face?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-Female customer in the middle: Photo by [Cuong Doan](https://unsplash.com/@huyencuong?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/human-face?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-Male customer to the right: Photo by [Sigmund](https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/human-face?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-#### about.html
-
-Background image: Photo by [Crew](https://unsplash.com/@crew?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-#### courses.html
-
-Tablet with latte macchiato and glass of water: Photo by [An Nguyen](https://unsplash.com/@ngocan_19?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-macchiato?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-Coffee beans, ground coffee and latte art: Photo by [Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-macchiato?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-Counter with 2 professional espresso machines: Photo by [Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-macchiato?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Images were used to create a sense of artisanship, flavour, love for details and skill. All images were taken from [Unsplash](https://unsplash.com). Credit for the individual pictures is given below in the [**Media**](#--media--) section.
 
 ### **Wireframes**
 
 I used Balsamiq to create my wireframes. It is beginner-friendly and very intuitive to use. To better demonstrate the differences, I sort my wireframes by page and show the versions for mobile, tablet and desktop next to each other.
 
-[wireframes for index.html](assets/images/wireframes/index.png)  
+[Wireframes for index.html](assets/images/wireframes/index.png)
+![wireframes for index.html](assets/images/wireframes/index.png)  
 Differences in the deployed version:
 
 - All navbar links have been moved to the right side due to a markup validator error message.
 - Also due to a validator error message, a heading has been added to the jumbotron with the hero image.
-- The small hero image 2 hasn't been implemented. In my opinion it wouldn't have improved the site.
+- The small hero image 2 hasn't been implemented. In my opinion it wouldn't have improved the site.  
 
-[wireframes for about.html](assets/images/wireframes/about.png)  
+[Wireframes for about.html](assets/images/wireframes/about.png)
+![wireframes for about.html](assets/images/wireframes/about.png)  
 Differences in the deployed version:
 
 - I chose to use a background image, which is displayed above the text for all resolutions instead of an image, which is displayed to the left or right side of the text for larger resolutions.
 - Instead of a second list I added the option to subscribe to a mailing list. The mailing list is placed beneath the table for all resolutions.
 
-[wireframes for courses.html](assets/images/wireframes.courses.png)  
+[Wireframes for courses.html](assets/images/wireframes/contact.png)
+![wireframes for courses.html](assets/images/wireframes/contact.png)  
 Differences in the deployed version:
 
 - For mobile devices, the images have been removed to improve loading times
 - And additional heading and badges have been added for each course
 
-[wireframes for contact.html](assets/images/wireframes/contact.png)  
-Differences in the deployed version:
+[Wireframes for contact.html](assets/images/wireframes/courses.png)
+![wireframes for contact.html](assets/images/wireframes/courses.png)  
+Please note: the single input field left to the map in the desktop view was put there during a call with my mentor as a reminder to move the complete form there. As stated below, I decided against it in the end.  
+ Differences in the deployed version:
 
 - To better space the elements, the email address has been put in it's own column on all devices except mobiles
 - A second button has been added to give the user the possibility to clear the form
 - Icons have been added to the buttons
-- The embedded Google Map has been placed below the contact form on all devices
+- The embedded Google Map has been placed below the contact form on all devices  
+
+Due to the 404 page only being added at the end of the project, no wireframe exists for this page.
 
 ## **Features**
 
@@ -225,7 +221,8 @@ Differences in the deployed version:
 ### **Existing Features**
 
 - The site is responsive
-- The navbar allows quick navigation throughout the site
+- Accessibility features in form of alternative text for images, language set to English, semantic HTML and ARIA labels were used to make the site accessible and enjoyable for users with disabilities.
+- The navbar allows quick navigation throughout the site on all pages except the 404 page, which only features a link to the home page
 - Colours and icons are used to mix things up without distracting from the content
 - Progress bars give a quick overview of the courses' main features
 - Radio buttons make sure that only one payment option is chosen
@@ -418,7 +415,32 @@ All content for this project was written by myself.
 
 ### **Media**
 
-All photos used for this project were obtained from [Unsplash](https://unsplash.com). Please refer to the [**Imagery**](#--imagery--) section for credits for the individual photos.
+All photos used for this project were obtained from [Unsplash](https://unsplash.com).  
+#### index.html
+
+Heropic: Photo by [Ben Garratt](https://unsplash.com/@wstn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-art?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Male customer on the left: Photo by [Nicolas Horn](https://unsplash.com/@chiefexof?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/human-face?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Female customer in the middle: Photo by [Cuong Doan](https://unsplash.com/@huyencuong?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/human-face?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Male customer to the right: Photo by [Sigmund](https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/human-face?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+#### about.html
+
+Background image: Photo by [Crew](https://unsplash.com/@crew?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+#### courses.html
+
+Tablet with latte macchiato and glass of water: Photo by [An Nguyen](https://unsplash.com/@ngocan_19?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-macchiato?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Coffee beans, ground coffee and latte art: Photo by [Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-macchiato?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Counter with 2 professional espresso machines: Photo by [Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-macchiato?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+#### 404.html
+
+Cat on a kitchen table: Photo by [Paul Hanaoka](https://unsplash.com/@plhnk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/cat-coffee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 ## **Inspiration**
 
