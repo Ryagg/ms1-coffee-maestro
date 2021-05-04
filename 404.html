@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 
-<body class="not-found">
+<body>
     <header>
 
     </header>
@@ -22,23 +22,16 @@
     <div class="container-fluid not-found-container">
         <!-- Jumbotron -->
         <div class="row">
-            <div class="col-12">
-                <img class="img-fluid" src="./assets/images/cat-and-coffee-cup-800px.jpg" alt="Cat and a cup of coffee">
-            </div>
-        </div>
-
-        <!-- About us -->
-        <div class="row">
-            <div class="col-12">
-                <h2 class="text-center lost">Oops! The cat stole the coffee</h2>
-                <h3 class="text-center">We're sorry. The page you are looking for can't be found</h3>
+            <div class="col-12 not-found">
+                <div class="jumbotron-fluid not-found-jumbotron">
+                    <div>
+                        <h1 class="text-center">You shall not pass!</h1>
+                    </div>
+                    <div id="message-bottom">
+                        <p>Oops, we're sorry! There is neither coffee nor a page to be found here. Let's get you <a class="nav-link btn btn-secondary home" href="index.html">Home</a></p>
+                        <!-- Found at https://stackoverflow.com/questions/3341011/making-a-button-thats-a-link-in-html-->
+                    </div>
                 </div>
-            </div>
-
-        <div class="row">
-            <div class="col-4 col-md-2 mx-auto">
-                <a class="nav-link btn btn-secondary home" href="index.html">Home</a>
-                <!-- Found at https://stackoverflow.com/questions/3341011/making-a-button-thats-a-link-in-html-->
             </div>
         </div>
 
