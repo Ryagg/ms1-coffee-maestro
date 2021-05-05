@@ -92,7 +92,7 @@ h1, h2, h3 {
 .reasons h2 {
     color: #343A40;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin: 5px 0 20px;
 }
 
 .reasons h3 {
@@ -166,12 +166,14 @@ h1, h2, h3 {
     font-size: 1em;
     color:#84190B;
     border: 1px groove #84190B;
+    margin-bottom: 8px;
 }
 
 .badge-cert {
     font-size: 1em;
     color:#84190B;
     border: 1px groove #84190B;
+    margin-bottom: 8px;
 }
 
 .course-details {
@@ -188,6 +190,7 @@ h1, h2, h3 {
     background-color: #84190B;
     color: #fff;
     font-size: 1em;
+    margin-top: 8px;
 }
 
 .block-divider {
