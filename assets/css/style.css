@@ -44,6 +44,19 @@ h1, h2, h3 {
     justify-content: center;
 }
 
+.courses-bg-container {
+    height: 600px;
+    background: url('../images/coffee-beans-380px.jpg') no-repeat 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-orange {
     background-color: #B2442E;
     color: rgb(255, 255, 255);
@@ -85,6 +98,13 @@ h1, h2, h3 {
     padding: 10px 20px;
     font-size: 1.5em;
     font-weight: 600;
+}
+
+.courses-jumbotron h1 {
+    background-color: rgb(248 249 250 / 35%);
+    color: #84190B;
+    padding: 10px;
+    font-weight: bolder;
 }
 
 /* --------------- Reasons --------------- */
@@ -152,14 +172,12 @@ h1, h2, h3 {
 
 /* --------------- Courses --------------- */
 
-.courses h1 {
-    color: #84190B;
-    font-weight: bold;
-    margin: 15px 0 20px 0;
-}
-
 .course-details h2 {
     color: #84190B;
+}
+
+.move-down {
+    margin-top: 20px;
 }
 
 .badge-course {
@@ -338,6 +356,14 @@ h1, h2, h3 {
         background-size: cover;
     }
 
+    .courses-bg-container {
+        background: url('../images/coffee-beans-768px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
     .not-found-container {
         height: 100vh;
         background: url('../images/cat-on-kittchen-table-768px.jpg') no-repeat 50% 50%;
@@ -370,6 +396,19 @@ h1, h2, h3 {
         font-size: 2em;
     }
 
+
+    .courses-jumbotron h1 {
+        font-size: 2em;
+    }
+
+    .courses-bg-container {
+        background: url('../images/coffee-beans-1366px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
     .not-found-container {
         height: 100vh;
         background: url('../images/cat-on-kittchen-table-1366px.jpg') no-repeat 50% 50%;
@@ -386,6 +425,10 @@ h1, h2, h3 {
     }
     .blockquote {
         font-size: 1em;
+    }
+
+    .courses-jumbotron h1 {
+        font-size: 2.5em;
     }
 
     .not-found h1 {
@@ -419,6 +462,14 @@ h1, h2, h3 {
         background-size: cover;
     }
 
+    .courses-bg-container {
+        background: url('../images/coffee-beans-1920px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
     .not-found-container {
         height: 100vh;
         background: url('../images/cat-on-kittchen-table-1920px.jpg') no-repeat 50% 50%;
@@ -429,6 +480,10 @@ h1, h2, h3 {
     }
 
     .index-jumbotron h1 {
+        font-size: 3em;
+    }
+
+    .courses-jumbotron h1 {
         font-size: 3em;
     }
 
