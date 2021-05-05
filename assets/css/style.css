@@ -18,7 +18,7 @@ h1, h2, h3 {
 
 .hero-image-container {
     height: 600px;
-    background: url('../images/latte-art-1920px.jpg') no-repeat 50% 50%;
+    background: url('../images/latte-art-380px.jpg') no-repeat 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,7 +33,7 @@ h1, h2, h3 {
 
 .about-container {
     height: 600px;
-    background: url('../images/espresso-machine-1920px.jpg') no-repeat 50% 50%;
+    background: url('../images/espresso-machine-380px.jpg') no-repeat 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -51,14 +51,13 @@ h1, h2, h3 {
 
 .not-found-container {
         height: 100vh;
-        background: url('../images/cat-on-kittchen-table-1920px.jpg') no-repeat 50% 50%;
+        background: url('../images/cat-on-kittchen-table-380px.jpg') no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         position: relative;
         display: flex;
-        /*align-items: center;*/
         justify-content: center;
     }
 
@@ -310,22 +309,6 @@ h1, h2, h3 {
         font-size: smaller;
     }
 
-    .hero-image-container {
-        background: url('../images/latte-art-380px.jpg') no-repeat 50% 50%;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-
-    .about-container {
-        background: url('../images/espresso-machine-380px.jpg') no-repeat 50% 50%;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-
     .not-found h1 {
         font-size: 1.3em;
     }
@@ -336,9 +319,63 @@ h1, h2, h3 {
 
 }
 
+@media(min-width: 768px) {
+    .hero-image-container {
+        height: 600px;
+        background: url('../images/latte-art-768px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .about-container {
+        background: url('../images/espresso-machine-768px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .not-found-container {
+        height: 100vh;
+        background: url('../images/cat-on-kittchen-table-768px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
 @media(min-width: 1024px) {
+    .hero-image-container {
+        height: 600px;
+        background: url('../images/latte-art-1366px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .about-container {
+        background: url('../images/espresso-machine-1366px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
     .about-jumbotron h1 {
         font-size: 2em;
+    }
+
+    .not-found-container {
+        height: 100vh;
+        background: url('../images/cat-on-kittchen-table-1366px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 }
 
@@ -362,6 +399,32 @@ h1, h2, h3 {
 @media(min-width: 2560px) {
     body {
         font-size: 2em;
+    }
+
+    .hero-image-container {
+        height: 600px;
+        background: url('../images/latte-art-1920px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .about-container {
+        background: url('../images/espresso-machine-1920px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .not-found-container {
+        height: 100vh;
+        background: url('../images/cat-on-kittchen-table-1920px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .index-jumbotron h1 {
