@@ -71,6 +71,7 @@ h1, h2, h3 {
 .index-jumbotron h1 {
     background-color: transparent;
     color: #343A40;
+    font-weight: bolder;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -79,7 +80,7 @@ h1, h2, h3 {
 }
 
 .about-jumbotron h1 {
-    background-color: rgb(248 249 250 / 20%);
+    background-color: rgb(248 249 250 / 35%);
     color: #072a43;
     padding: 10px 20px;
     font-size: 1.5em;
