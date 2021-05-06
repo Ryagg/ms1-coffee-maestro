@@ -92,6 +92,16 @@ h1, h2, h3 {
     padding-top: 20px;
 }
 
+/* --------------- Navbar --------------- */
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 15;
+}
+
 /* --------------- Jumbotrons --------------- */
 
 .index-jumbotron h1 {
