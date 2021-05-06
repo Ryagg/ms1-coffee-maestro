@@ -108,11 +108,11 @@ h1, h2, h3 {
     background-color: transparent;
     color: #343A40;
     font-weight: bolder;
+    /* found this method at https://css-tricks.com/centering-css-complete-guide/ */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* found this method at https://css-tricks.com/centering-css-complete-guide/ */
 }
 
 .about-jumbotron h1 {
@@ -465,10 +465,6 @@ h1, h2, h3 {
     .index-jumbotron h1 {
         font-size: 2em;
     }
-    /*.blockquote {
-        font-size: 1.2em;
-        color: blue;
-    }*/
 
     .about-jumbotron h1 {
         font-size: 2em;
