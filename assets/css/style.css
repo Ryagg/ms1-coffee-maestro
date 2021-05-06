@@ -516,6 +516,12 @@ h1, h2, h3 {
     }
 }
 
+@media(min-width: 1920px) {
+    .contact-container {
+        margin-top: 65px;
+    }
+}
+
 @media(min-width: 2560px) {
     body {
         font-size: 2em;
