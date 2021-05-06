@@ -59,7 +59,6 @@ The site targets both coffee lovers who want to extend their knowledge about cof
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-
 ## **User Experience (UX)**
 
 ***
@@ -183,7 +182,7 @@ Due to the 404 page only being added at the end of the project, no wireframe exi
 
 - The site is responsive
 - Accessibility features in form of alternative text for images, language set to English, semantic HTML and ARIA labels were used to make the site accessible and enjoyable for users with disabilities.
-- The navbar allows quick navigation throughout the site on all pages except the 404 page, which only features a link to the home page
+- The navbar allows quick navigation throughout the site on all pages except the 404 page, which only features a link to the home page. The navbar also sticks to the top for greater convenience.
 - Colours and icons are used to mix things up without distracting from the content
 - Progress bars give a quick overview of the courses' main features
 - Radio buttons make sure that only one payment option is chosen
@@ -223,6 +222,7 @@ Due to the 404 page only being added at the end of the project, no wireframe exi
 - [Am I Responsive?](http://ami.responsivedesign.is/#)
 - [IrfanView](https://www.irfanview.com/)
 - [Google Cloud Platform](https://cloud.google.com/)
+- [bitly](https://bitly.com/)
 - [W3C HTML Validation Service](https://validator.w3.org/)
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - [GitHub Wiki TOC generator](https://ecotrust-canada.github.io/markdown-toc/)
@@ -290,7 +290,7 @@ Working as intended.
 - Plan  
 Give the user the opportunity to see at a glance where the courses will take place, to view a larger map and to get directions.
 - Implementation  
-I used an iFrame with an embedded responsive Google Map. I registered an API key at [Google Cloud Platform](https://cloud.google.com/) and restricted both the URLs that can use the key and the APIs that can be accessed with it. I used the instructions at [developers.google.com](https://developers.google.com/maps/documentation/embed/get-api-key) to create and restrict the API key.
+I used an iFrame with an embedded responsive Google Map. I registered an API key at [Google Cloud Platform](https://cloud.google.com/) and restricted both the URLs that can use the key and the APIs that can be accessed with it. I used the instructions at [developers.google.com](https://developers.google.com/maps/documentation/embed/get-api-key) to create and restrict the API key. To generate the link used in the iFrame I followed the instructions [here](https://developers.google.com/maps/documentation/embed/map-generator). I entered '11 Charles Street, Bristol, UK' as adress and added my API key as instructed after '&key=' and afterwards used [bitly](https://bitly.com/) to shorten the link.
 - Test  
 Check whether the map is displayed. Click on links for larger maps and directions.
 - Result  
@@ -460,9 +460,11 @@ Male customer to the right: Photo by [Sigmund](https://unsplash.com/@sigmund?utm
 
 #### about.html
 
-Background image: Photo by [Crew](https://unsplash.com/@crew?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Background image espresso machine: Photo by [Crew](https://unsplash.com/@crew?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 #### courses.html
+
+Background image coffee beans: Photo by [Nousnou Iwasaki](https://unsplash.com/@nousnou?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/coffee-beans?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 Tablet with latte macchiato and glass of water: Photo by [An Nguyen](https://unsplash.com/@ngocan_19?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-macchiato?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -470,9 +472,13 @@ Coffee beans, ground coffee and latte art: Photo by [Nathan Dumlao](https://unsp
 
 Counter with 2 professional espresso machines: Photo by [Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/latte-macchiato?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
+#### contact.html
+
+Background image espresso: Photo by [Adi Goldstein](https://unsplash.com/@adigold1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/espresso?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 #### 404.html
 
-Cat on a kitchen table: Photo by [Paul Hanaoka](https://unsplash.com/@plhnk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/cat-coffee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Background image cat on a kitchen table: Photo by [Paul Hanaoka](https://unsplash.com/@plhnk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/cat-coffee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 ## **Inspiration**
 
@@ -483,4 +489,5 @@ I used [hejcoffee](https://www.hejcoffee.co.uk/barista-courses/) and [artisancof
 Many thanks to the following persons:  
 
 - My mentor Maranatha Ilesanmi for his helpful insights and feedback.
-- My brother Thomas Lange, my niece V.L. and my colleagues M.R, Cordula Mzyk-Zourelidis, Ekaterina Vakhonina and Alla Krause for their willingness to test the site and their feedback.
+- Richard Thorp for his amazing feedback and suggestions in the peer-code-review on Slack, especially adding background images to the courses and contact page as well as placing the unsorted lists and progress bars on the courses page next to each other on large screens.
+- My brother Thomas Lange, my niece J.L. and my colleagues M.R, Cordula Mzyk-Zourelidis, Ekaterina Vakhonina and Alla Krause for their willingness to test the site and their feedback.
