@@ -57,6 +57,19 @@ h1, h2, h3 {
     justify-content: center;
 }
 
+.contact-container {
+    height: 600px;
+    background: url('../images/espresso-380px.jpg') no-repeat 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-orange {
     background-color: #B2442E;
     color: rgb(255, 255, 255);
@@ -96,8 +109,7 @@ h1, h2, h3 {
     background-color: rgb(248 249 250 / 35%);
     color: #072a43;
     padding: 10px 20px;
-    font-size: 1.5em;
-    font-weight: 600;
+    font-weight: bolder;
 }
 
 .courses-jumbotron h1 {
@@ -107,6 +119,15 @@ h1, h2, h3 {
     font-weight: bolder;
 }
 
+.contact-jumbotron h1 {
+    color: #B2442E;
+    font-weight: bolder;
+}
+
+.not-found-jumbotron h1 {
+    margin-top: 20px;
+    font-weight: bolder;
+}
 /* --------------- Reasons --------------- */
 
 .reasons h2 {
@@ -248,11 +269,6 @@ h1, h2, h3 {
     background-color: #F2F6F8;
 }
 
-.contact h1 {
-    margin-top: 20px;
-    color: #B2442E;
-}
-
 .contact h2 {
     margin-bottom: 2px;
 }
@@ -285,10 +301,6 @@ h1, h2, h3 {
 
 .not-found {
     color: #FE6003;
-}
-
-.not-found h1 {
-    margin-top: 20px;
 }
 
 .not-found p {
@@ -328,6 +340,18 @@ h1, h2, h3 {
         font-size: smaller;
     }
 
+    .about-jumbotron h1 {
+        font-size: 1.3em;
+    }
+
+    .courses-jumbotron h1 {
+        font-size: 1.3em;
+    }
+
+    .contact-jumbotron h1 {
+        font-size: 1.3em;
+    }
+
     .not-found h1 {
         font-size: 1.3em;
     }
@@ -335,7 +359,6 @@ h1, h2, h3 {
     #message-bottom {
         font-size: .8em;
     }
-
 }
 
 @media(min-width: 768px) {
@@ -358,6 +381,15 @@ h1, h2, h3 {
 
     .courses-bg-container {
         background: url('../images/coffee-beans-768px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .contact-container {
+        height: 600px;
+        background: url('../images/espresso-768px.jpg') no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -392,17 +424,17 @@ h1, h2, h3 {
         background-size: cover;
     }
 
-    .about-jumbotron h1 {
-        font-size: 2em;
-    }
-
-
-    .courses-jumbotron h1 {
-        font-size: 2em;
-    }
-
     .courses-bg-container {
         background: url('../images/coffee-beans-1366px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .contact-container {
+        height: 600px;
+        background: url('../images/espresso-1366px.jpg') no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -417,6 +449,30 @@ h1, h2, h3 {
         -o-background-size: cover;
         background-size: cover;
     }
+
+    .index-jumbotron h1 {
+        font-size: 2em;
+    }
+    /*.blockquote {
+        font-size: 1.2em;
+        color: blue;
+    }*/
+
+    .about-jumbotron h1 {
+        font-size: 2em;
+    }
+
+    .courses-jumbotron h1 {
+        font-size: 2em;
+    }
+
+    .contact-jumbotron h1 {
+        font-size: 2em;
+    }
+
+    .not-found h1 {
+        font-size: 2em;
+    }
 }
 
 @media(min-width: 1280px) {
@@ -427,12 +483,20 @@ h1, h2, h3 {
         font-size: 1em;
     }
 
+    .about-jumbotron h1 {
+        font-size: 2.5em;
+    }
+
     .courses-jumbotron h1 {
         font-size: 2.5em;
     }
 
+    .contact-jumbotron h1 {
+        font-size: 2.5em;
+    }
+
     .not-found h1 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     #message-bottom {
@@ -470,6 +534,15 @@ h1, h2, h3 {
         background-size: cover;
     }
 
+    .contact-container {
+        height: 600px;
+        background: url('../images/espresso-1920px.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
     .not-found-container {
         height: 100vh;
         background: url('../images/cat-on-kittchen-table-1920px.jpg') no-repeat 50% 50%;
@@ -483,7 +556,19 @@ h1, h2, h3 {
         font-size: 3em;
     }
 
+    .about-jumbotron h1 {
+        font-size: 3em;
+    }
+
     .courses-jumbotron h1 {
+        font-size: 3em;
+    }
+
+    .contact-jumbotron h1 {
+        font-size: 3em;
+    }
+
+    .not-found h1 {
         font-size: 3em;
     }
 
@@ -501,10 +586,6 @@ h1, h2, h3 {
 
     .modal-body label {
         font-size: 1.2em;
-    }
-
-    .not-found h1 {
-        font-size: 3em;
     }
 
     #message-bottom {
