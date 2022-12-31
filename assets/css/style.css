@@ -283,6 +283,17 @@ h3 {
     font-size: 1em;
 }
 
+.btn-confirm:hover {
+    color: #28a745;
+    background-color: #fff;
+    border: 1px solid #28a745;
+}
+
+.btn-cancel:hover {
+    color: #dc3545;
+    background-color: #fff;
+    border: 1px solid #dc3545;
+}
 /* --------------- Contact form --------------- */
 
 .contact {
