@@ -1,220 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+        <meta
+            name="description"
+            content="Milestone project about a fictional company offering barista courses for Code Institute's Diploma in Software Development"
+        />
+        <meta name="keywords" content="coffee, barista, coffee preparation, course" />
+        <meta name="author" content="Scott Boening" />
+        <title>Coffee maestro | Courses for baristas and coffee enthusiasts</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+            crossorigin="anonymous"
+        />
+        <script src="https://kit.fontawesome.com/7bb209bc2f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="Milestone project about a fictional company offering barista courses for Code Institute's Diploma in Software Development">
-    <meta name="keywords" content="coffee, barista, coffee preparation, course">
-    <meta name="author" content="Scott Boening">
-    <title>Coffee maestro | Courses for baristas and coffee enthusiasts</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/7bb209bc2f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-</head>
-
-<body>
-    <header>
-    <!-- navbar -->
-        <div class="container-fluid navbar-container">
-            <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-                <a class="navbar-brand" href="index.html">Coffee maestro</a>
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav mr-0 ml-auto">
-                        <li class="nav-item active mr-2">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item mr-2">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="courses.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Courses
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="courses.html#Americano">Americano</a>
-                                <a class="dropdown-item" href="courses.html#Blonde-Vanilla-Latte">Blonde Vanilla Latte</a>
-                                <a class="dropdown-item" href="courses.html#Espresso-Macchiato">Espresso Macchiato</a>
-                            </div>
-                        </li>
-                        <li class="nav-item mr-2">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <div class="container-fluid hero-image-container">
-        <!-- Jumbotron -->
-        <div class="row">
-            <div class="col-12">
-                <div class="jumbotron index-jumbotron jumbotron-fluid">
-                    <h1 class="text-center">
-                        Prepare coffee like an artisan!
-                    </h1>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <section class="reasons container">
-        <!-- Reasons-->
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="text-center">
-                    What you will learn in our courses:
-                        </h2>
+    <body>
+        <header>
+            <!-- navbar -->
+            <div class="container-fluid navbar-container">
+                <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+                    <a class="navbar-brand" href="index.html">Coffee maestro</a>
+                    <button
+                        class="navbar-toggler ml-auto"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav mr-0 ml-auto">
+                            <li class="nav-item active mr-2">
+                                <a class="nav-link" href="index.html"
+                                    >Home <span class="sr-only">(current)</span></a
+                                >
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="courses.html"
+                                    id="navbarDropdownMenuLink"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                >
+                                    Courses
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="courses.html#Americano"
+                                        >Americano</a
+                                    >
+                                    <a
+                                        class="dropdown-item"
+                                        href="courses.html#Blonde-Vanilla-Latte"
+                                        >Blonde Vanilla Latte</a
+                                    >
+                                    <a class="dropdown-item" href="courses.html#Espresso-Macchiato"
+                                        >Espresso Macchiato</a
+                                    >
+                                </div>
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <div>
-                                <h3><i class="fad fa-mug-hot mr-2"></i>Know your beans and how to roast them</h3>
-                                    <p>
-                                        Learn the differences between the two most used varieties: Arabica and Robusta. Different regions and microclimates where the coffee plants grow are responsible for different dominant flavour notes. Next comes the processing method (washed or natural), which heavily influences the levels of acidity and sweetness. Finally, the raw bean is roasted. Light roasts preserve the unique characteristics of the coffee bean an can produce vibrant and unique flavours. Medium roasts start to extract the sweetness and are less acidic and intense. Dark roasts have low acidity and a heavy body. They produce a chocolatey, nutty flavour.
-                                    </p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <div>
-                                <h3><i class="far fa-tools mr-2"></i>Get to know your most important tool: the grinder</h3>
-                                    <p>
-                                        You can have the world’s best beans roasted to perfection, but without a good grinder you just can’t produce a great cup of coffee. To avoid both under- and overextraction you have to choose the right grind size.  From super fine for Turkish Coffee and Espresso to medium for Aeropress and coarse for French Press and Cold Brew there is a wide range of grind sizes to choose from. To achieve a consistent grind size, use a burr coffee grinder. For home coffee grinding there are excellent manual and electric grinders. For use in a professional setting, manual grinding sadly isn’t really an option. But, of course, there a many great professional grade electric grinders available.
-                                    </p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <div>
-                                <h3><i class="far fa-coffee-pot mr-2"></i>Master a multitude of coffeemakers</h3>
-                                    <p>
-                                        One of the most iconic manual coffeemakers is the Chemex. Invented in 1941 by a German chemist it is included in the permanent collection oft he Museum of Modern Art in New York and has stared in many TV series and movies. Quite different in design is the Aeropress, which features both a traditional and an inverted brewing method. There is also the annually World AeroPress Championship! Another world-famous manual coffeemaker is the French Press. It is easy to use and produces a full bodied coffee full of flavour in a short amount of time.  Electric coffeemakers range from simple one-button machines to complex devices which require a thorough instruction.
-                                    </p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <div>
-                                <h3><i class="fad fa-glass-citrus mr-2"></i>Learn recipes for every occasion</h3>
-                                    <p>In addition to coffee variants like Espresso, Latte Macchiato and Cold Brew there are still more exciting coffees to try out. Here are some of our favourites:
-                                    </p>
-                                        <ul>
-                                            <li>Cold Brew Tonic</li>
-                                            <li>Iced Lattes</li>
-                                            <li>Cold Brew Martini</li>
-                                            <li>The Irish Bump</li>
-                                        </ul>
-                            </div>
-                        </div>
-        </div>
-    </section>
+                </nav>
+            </div>
+        </header>
 
-    <div class="container-fluid container-orange">
-        <!-- Quotes-->
-        <section class="quotes">
+        <div class="container-fluid hero-image-container">
+            <!-- Jumbotron -->
             <div class="row">
-                <div class="col">
-                    <h2 class="text-center">What our customers say:</h2>
+                <div class="col-12">
+                    <div class="jumbotron index-jumbotron jumbotron-fluid">
+                        <h1 class="text-center">Prepare coffee like an artisan!</h1>
+                    </div>
                 </div>
             </div>
-            <div class="row mx-2">
-                <div class="col-12 col-lg-4">
-                    <div class="media">
-                        <div class="d-none d-sm-block">
-                            <img src="assets/images/nicolas-horn-male-customer-unsplash-640px.jpg" class="rounded-circle ml-3 mr-3" height=100 width=100 alt="male customer">
-                        </div>
-                        <div>
-                            <blockquote class="blockquote">
-                                <p class="mb-0">
-                                    Thanks to this fantastic course I've been able to make an income out of my passion for coffee!
-                                </p>
-                                <p>- Andrew Rodgers</p>
-                            </blockquote>
-                        </div>
+        </div>
+
+        <section class="reasons container">
+            <!-- Reasons-->
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">What you will learn in our courses:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div>
+                        <h3>
+                            <i class="fad fa-mug-hot mr-2"></i>Know your beans and how to roast them
+                        </h3>
+                        <p>
+                            Learn the differences between the two most used varieties: Arabica and
+                            Robusta. Different regions and microclimates where the coffee plants
+                            grow are responsible for different dominant flavour notes. Next comes
+                            the processing method (washed or natural), which heavily influences the
+                            levels of acidity and sweetness. Finally, the raw bean is roasted. Light
+                            roasts preserve the unique characteristics of the coffee bean an can
+                            produce vibrant and unique flavours. Medium roasts start to extract the
+                            sweetness and are less acidic and intense. Dark roasts have low acidity
+                            and a heavy body. They produce a chocolatey, nutty flavour.
+                        </p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4">
-                    <div class="media">
-                        <div class="d-none d-sm-block">
-                            <img src="assets/images/cuong-doan-female-customer-unsplash-640px.jpg" class="rounded-circle ml-3 mr-3" height=100 width=100 alt="female customer">
-                        </div>
-                        <div>
-                            <blockquote class="blockquote">
-                                <p class="mb-0">
-                                    I've learned so much. Now I can make so many different kinds of coffee. All my friends envy me!
-                                </p>
-                                <p>- Amanda Myers</p>
-                            </blockquote>
-                        </div>
+                <div class="col-12 col-lg-6">
+                    <div>
+                        <h3>
+                            <i class="far fa-tools mr-2"></i>Get to know your most important tool:
+                            the grinder
+                        </h3>
+                        <p>
+                            You can have the world’s best beans roasted to perfection, but without a
+                            good grinder you just can’t produce a great cup of coffee. To avoid both
+                            under- and overextraction you have to choose the right grind size. From
+                            super fine for Turkish Coffee and Espresso to medium for Aeropress and
+                            coarse for French Press and Cold Brew there is a wide range of grind
+                            sizes to choose from. To achieve a consistent grind size, use a burr
+                            coffee grinder. For home coffee grinding there are excellent manual and
+                            electric grinders. For use in a professional setting, manual grinding
+                            sadly isn’t really an option. But, of course, there a many great
+                            professional grade electric grinders available.
+                        </p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4">
-                    <div class="media">
-                        <div class="d-none d-sm-block">
-                            <img src="assets/images/sigmund-male-customer-unsplash-640px.jpg" class="rounded-circle ml-3 mr-3" height=100 width=100 alt="another male customer">
-                        </div>
-                        <div>
-                            <blockquote class="blockquote">
-                                <p class="mb-0">
-                                    Well organized course and a very friendly, competent staff. I enjoyed the course very much.
-                                </p>
-                                <p>- Carlo Osuna</p>
-                            </blockquote>
-                        </div>
+                <div class="col-12 col-lg-6">
+                    <div>
+                        <h3>
+                            <i class="far fa-coffee-pot mr-2"></i>Master a multitude of coffeemakers
+                        </h3>
+                        <p>
+                            One of the most iconic manual coffeemakers is the Chemex. Invented in
+                            1941 by a German chemist it is included in the permanent collection oft
+                            he Museum of Modern Art in New York and has stared in many TV series and
+                            movies. Quite different in design is the Aeropress, which features both
+                            a traditional and an inverted brewing method. There is also the annually
+                            World AeroPress Championship! Another world-famous manual coffeemaker is
+                            the French Press. It is easy to use and produces a full bodied coffee
+                            full of flavour in a short amount of time. Electric coffeemakers range
+                            from simple one-button machines to complex devices which require a
+                            thorough instruction.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div>
+                        <h3>
+                            <i class="fad fa-glass-citrus mr-2"></i>Learn recipes for every occasion
+                        </h3>
+                        <p>
+                            In addition to coffee variants like Espresso, Latte Macchiato and Cold
+                            Brew there are still more exciting coffees to try out. Here are some of
+                            our favourites:
+                        </p>
+                        <ul>
+                            <li>Cold Brew Tonic</li>
+                            <li>Iced Lattes</li>
+                            <li>Cold Brew Martini</li>
+                            <li>The Irish Bump</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- </div> -->
-    </div>
 
-    <footer class="container-fluid footer-container bg-dark">
-        <!-- Footer-->
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <h3 class="text-center">Find us on:</h3>
+        <div class="container-fluid container-orange">
+            <!-- Quotes-->
+            <section class="quotes">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center">What our customers say:</h2>
+                    </div>
+                </div>
+                <div class="row mx-2">
+                    <div class="col-12 col-lg-4">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img
+                                    src="assets/images/nicolas-horn-male-customer-unsplash-640px.jpg"
+                                    class="rounded-circle ml-3 mr-3"
+                                    height="100"
+                                    width="100"
+                                    alt="male customer"
+                                />
+                            </div>
+                            <div>
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">
+                                        Thanks to this fantastic course I've been able to make an
+                                        income out of my passion for coffee!
+                                    </p>
+                                    <p>- Andrew Rodgers</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img
+                                    src="assets/images/cuong-doan-female-customer-unsplash-640px.jpg"
+                                    class="rounded-circle ml-3 mr-3"
+                                    height="100"
+                                    width="100"
+                                    alt="female customer"
+                                />
+                            </div>
+                            <div>
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">
+                                        I've learned so much. Now I can make so many different kinds
+                                        of coffee. All my friends envy me!
+                                    </p>
+                                    <p>- Amanda Myers</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img
+                                    src="assets/images/sigmund-male-customer-unsplash-640px.jpg"
+                                    class="rounded-circle ml-3 mr-3"
+                                    height="100"
+                                    width="100"
+                                    alt="another male customer"
+                                />
+                            </div>
+                            <div>
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">
+                                        Well organized course and a very friendly, competent staff.
+                                        I enjoyed the course very much.
+                                    </p>
+                                    <p>- Carlo Osuna</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- </div> -->
+        </div>
+
+        <footer class="container-fluid footer-container bg-dark">
+            <!-- Footer-->
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <h3 class="text-center">Find us on:</h3>
                     <ul class="list-inline">
                         <li class="list-inline-item ml-1 mr-1 ml-sm-4 mr-sm-4">
-                            <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                            <a
+                                href="http://www.facebook.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <i class="fab fa-facebook" aria-hidden="true"></i>
                                 <span class="sr-only sr-only-focusable">Facebook</span>
                             </a>
                         </li>
                         <li class="list-inline-item mr-1 mr-sm-4">
-                            <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                            <a
+                                href="http://www.twitter.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <i class="fab fa-twitter-square" aria-hidden="true"></i>
                                 <span class="sr-only sr-only-focusable">Twitter</span>
                             </a>
                         </li>
                         <li class="list-inline-item mr-1 mr-sm-4">
-                            <a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                            <a
+                                href="http://www.youtube.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <i class="fab fa-youtube" aria-hidden="true"></i>
                                 <span class="sr-only sr-only-focusable">Youtube</span>
                             </a>
                         </li>
                         <li class="list-inline-item mr-1 mr-sm-4">
-                            <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                            <a
+                                href="http://www.instagram.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <i class="fab fa-instagram" aria-hidden="true"></i>
                                 <span class="sr-only sr-only-focusable">Instagram</span>
                             </a>
                         </li>
                     </ul>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center">
-                <p>&copy; Copyright 2021 - Scott Boening.  All rights reserved.</p>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; Copyright 2021 - Scott Boening. All rights reserved.</p>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-</body>
-
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+            integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
