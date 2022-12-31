@@ -324,7 +324,7 @@ h3 {
 }
 
 .not-found p {
-    background-color: #fff;
+    background-color: #f2f6f8;
     padding: 5px;
 }
 
@@ -335,9 +335,16 @@ h3 {
 
 .home {
     color: #fff;
+    background-color: #fe6003;
     font-size: inherit;
     width: 30%;
     margin: auto;
+}
+
+.home:hover {
+    color: #fe6003;
+    background-color: #072a43;
+    border: 1px solid #fe6003;
 }
 
 /* --------------- Footer --------------- */
