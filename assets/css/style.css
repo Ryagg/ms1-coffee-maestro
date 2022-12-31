@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
 
 body {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 1.5em;
 }
 
-h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
+h1,
+h2,
+h3 {
+    font-family: "Roboto", sans-serif;
 }
 
 /* --------------- Containers --------------- */
@@ -18,7 +20,7 @@ h1, h2, h3 {
 
 .hero-image-container {
     height: 600px;
-    background: url('../images/latte-art-380px.jpg') no-repeat 50% 50%;
+    background: url("../images/latte-art-380px.jpg") no-repeat 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,7 +35,7 @@ h1, h2, h3 {
 
 .about-container {
     height: 600px;
-    background: url('../images/espresso-machine-640px.jpg') no-repeat 50% 50%;
+    background: url("../images/espresso-machine-640px.jpg") no-repeat 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -46,7 +48,7 @@ h1, h2, h3 {
 
 .courses-bg-container {
     height: 600px;
-    background: url('../images/coffee-beans-640px.jpg') no-repeat 50% 50%;
+    background: url("../images/coffee-beans-640px.jpg") no-repeat 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -59,7 +61,7 @@ h1, h2, h3 {
 
 .contact-container {
     height: 600px;
-    background: url('../images/espresso-640px.jpg') no-repeat 50% 50%;
+    background: url("../images/espresso-640px.jpg") no-repeat 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -71,21 +73,21 @@ h1, h2, h3 {
 }
 
 .container-orange {
-    background-color: #B2442E;
+    background-color: #b2442e;
     color: rgb(255, 255, 255);
 }
 
 .not-found-container {
-        height: 100vh;
-        background: url('../images/cat-on-kittchen-table-640px.jpg') no-repeat 50% 50%;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        position: relative;
-        display: flex;
-        justify-content: center;
-    }
+    height: 100vh;
+    background: url("../images/cat-on-kittchen-table-640px.jpg") no-repeat 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 
 .footer-container {
     color: rgb(255, 255, 255);
@@ -106,7 +108,7 @@ h1, h2, h3 {
 
 .index-jumbotron h1 {
     background-color: transparent;
-    color: #343A40;
+    color: #343a40;
     font-weight: bolder;
     /* found this method at https://css-tricks.com/centering-css-complete-guide/ */
     position: absolute;
@@ -124,14 +126,14 @@ h1, h2, h3 {
 
 .courses-jumbotron h1 {
     background-color: rgb(248 249 250 / 35%);
-    color: #84190B;
+    color: #84190b;
     padding: 10px;
     font-weight: bolder;
 }
 
 .contact-jumbotron h1 {
     background-color: rgb(248 249 250 / 55%);
-    color: #B2442E;
+    color: #b2442e;
     padding: 10px;
     font-weight: bolder;
 }
@@ -143,7 +145,7 @@ h1, h2, h3 {
 /* --------------- Reasons --------------- */
 
 .reasons h2 {
-    color: #343A40;
+    color: #343a40;
     font-weight: bold;
     margin: 5px 0 20px;
 }
@@ -167,7 +169,7 @@ h1, h2, h3 {
 /* --------------- About --------------- */
 
 .light-blue {
-    background-color: #F2F6F8;
+    background-color: #f2f6f8;
 }
 
 .table-overview {
@@ -206,7 +208,7 @@ h1, h2, h3 {
 /* --------------- Courses --------------- */
 
 .course-details h2 {
-    color: #84190B;
+    color: #84190b;
 }
 
 .move-down {
@@ -215,15 +217,15 @@ h1, h2, h3 {
 
 .badge-course {
     font-size: 1em;
-    color:#84190B;
-    border: 1px groove #84190B;
+    color: #84190b;
+    border: 1px groove #84190b;
     margin-bottom: 8px;
 }
 
 .badge-cert {
     font-size: 1em;
-    color:#84190B;
-    border: 1px groove #84190B;
+    color: #84190b;
+    border: 1px groove #84190b;
     margin-bottom: 8px;
 }
 
@@ -238,10 +240,16 @@ h1, h2, h3 {
 }
 
 .btn-register {
-    background-color: #84190B;
+    background-color: #84190b;
     color: #fff;
     font-size: 1em;
     margin-top: 8px;
+}
+
+.btn-register:hover {
+    background-color: #fff;
+    color: #84190b;
+    border: 1px solid #84190b;
 }
 
 .block-divider {
@@ -260,7 +268,7 @@ h1, h2, h3 {
 .customer-info label {
     margin-top: 1rem;
     margin-bottom: 0.1rem;
-    color: #84190B;
+    color: #84190b;
 }
 
 .modal-body button {
@@ -278,7 +286,7 @@ h1, h2, h3 {
 /* --------------- Contact form --------------- */
 
 .contact {
-    background-color: #F2F6F8;
+    background-color: #f2f6f8;
 }
 
 .contact h2 {
@@ -286,7 +294,7 @@ h1, h2, h3 {
 }
 
 .contact-form-colored label {
-    color:#B2442E;
+    color: #b2442e;
 }
 
 .contact-form-colored input {
@@ -294,15 +302,15 @@ h1, h2, h3 {
 }
 
 .btn-contact {
-    background-color: #B2442E;
+    background-color: #b2442e;
     color: #fff;
     font-size: 1em;
 }
 
 .btn-contact:hover {
     background-color: #fff;
-    color: #B2442E;
-    border: 1px solid #B2442E;
+    color: #b2442e;
+    border: 1px solid #b2442e;
 }
 
 .contact iframe {
@@ -312,7 +320,7 @@ h1, h2, h3 {
 /* --------------- Not found --------------- */
 
 .not-found {
-    color: #FE6003;
+    color: #fe6003;
 }
 
 .not-found p {
@@ -341,13 +349,13 @@ h1, h2, h3 {
 
 /* --------------- Media Queries --------------- */
 
-@media(max-width: 370px) {
+@media (max-width: 370px) {
     .footer-container i {
         font-size: 120%;
     }
 }
 
-@media(max-width: 425px) {
+@media (max-width: 425px) {
     .index-jumbotron h1 {
         font-size: smaller;
     }
@@ -369,14 +377,14 @@ h1, h2, h3 {
     }
 
     #message-bottom {
-        font-size: .8em;
+        font-size: 0.8em;
     }
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
     .hero-image-container {
         height: 600px;
-        background: url('../images/latte-art-768px.jpg') no-repeat 50% 50%;
+        background: url("../images/latte-art-768px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -384,7 +392,7 @@ h1, h2, h3 {
     }
 
     .about-container {
-        background: url('../images/espresso-machine-768px.jpg') no-repeat 50% 50%;
+        background: url("../images/espresso-machine-768px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -392,7 +400,7 @@ h1, h2, h3 {
     }
 
     .courses-bg-container {
-        background: url('../images/coffee-beans-768px.jpg') no-repeat 50% 50%;
+        background: url("../images/coffee-beans-768px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -401,7 +409,7 @@ h1, h2, h3 {
 
     .contact-container {
         height: 600px;
-        background: url('../images/espresso-768px.jpg') no-repeat 50% 50%;
+        background: url("../images/espresso-768px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -410,7 +418,7 @@ h1, h2, h3 {
 
     .not-found-container {
         height: 100vh;
-        background: url('../images/cat-on-kittchen-table-768px.jpg') no-repeat 50% 50%;
+        background: url("../images/cat-on-kittchen-table-768px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -418,10 +426,10 @@ h1, h2, h3 {
     }
 }
 
-@media(min-width: 1024px) {
+@media (min-width: 1024px) {
     .hero-image-container {
         height: 600px;
-        background: url('../images/latte-art-1366px.jpg') no-repeat 50% 50%;
+        background: url("../images/latte-art-1366px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -429,7 +437,7 @@ h1, h2, h3 {
     }
 
     .about-container {
-        background: url('../images/espresso-machine-1366px.jpg') no-repeat 50% 50%;
+        background: url("../images/espresso-machine-1366px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -437,7 +445,7 @@ h1, h2, h3 {
     }
 
     .courses-bg-container {
-        background: url('../images/coffee-beans-1366px.jpg') no-repeat 50% 50%;
+        background: url("../images/coffee-beans-1366px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -446,7 +454,7 @@ h1, h2, h3 {
 
     .contact-container {
         height: 600px;
-        background: url('../images/espresso-1366px.jpg') no-repeat 50% 50%;
+        background: url("../images/espresso-1366px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -455,7 +463,7 @@ h1, h2, h3 {
 
     .not-found-container {
         height: 100vh;
-        background: url('../images/cat-on-kittchen-table-1366px.jpg') no-repeat 50% 50%;
+        background: url("../images/cat-on-kittchen-table-1366px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -483,7 +491,7 @@ h1, h2, h3 {
     }
 }
 
-@media(min-width: 1280px) {
+@media (min-width: 1280px) {
     .index-jumbotron h1 {
         font-size: 2.5em;
     }
@@ -512,20 +520,20 @@ h1, h2, h3 {
     }
 }
 
-@media(min-width: 1920px) {
+@media (min-width: 1920px) {
     .contact-container {
         margin-top: 65px;
     }
 }
 
-@media(min-width: 2560px) {
+@media (min-width: 2560px) {
     body {
         font-size: 2em;
     }
 
     .hero-image-container {
         height: 600px;
-        background: url('../images/latte-art-1920px.jpg') no-repeat 50% 50%;
+        background: url("../images/latte-art-1920px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -533,7 +541,7 @@ h1, h2, h3 {
     }
 
     .about-container {
-        background: url('../images/espresso-machine-1920px.jpg') no-repeat 50% 50%;
+        background: url("../images/espresso-machine-1920px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -541,7 +549,7 @@ h1, h2, h3 {
     }
 
     .courses-bg-container {
-        background: url('../images/coffee-beans-1920px.jpg') no-repeat 50% 50%;
+        background: url("../images/coffee-beans-1920px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -550,7 +558,7 @@ h1, h2, h3 {
 
     .contact-container {
         height: 600px;
-        background: url('../images/espresso-1920px.jpg') no-repeat 50% 50%;
+        background: url("../images/espresso-1920px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -559,7 +567,7 @@ h1, h2, h3 {
 
     .not-found-container {
         height: 100vh;
-        background: url('../images/cat-on-kittchen-table-1920px.jpg') no-repeat 50% 50%;
+        background: url("../images/cat-on-kittchen-table-1920px.jpg") no-repeat 50% 50%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -586,9 +594,9 @@ h1, h2, h3 {
         font-size: 3em;
     }
 
-.progress {
-    height: 3.5rem;
-}
+    .progress {
+        height: 3.5rem;
+    }
 
     .modal-body button {
         font-size: 1.2em;
